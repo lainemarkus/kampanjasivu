@@ -3,9 +3,12 @@ body {
     font-family: 'Raleway', 'Arial';
     font-size: 18px;
     font-weight: bold;
+    background: linear-gradient(180deg, #c9dfeb 0%, #BCE2F5 5%, #B1DAE7 61.98%, #A4D6ED 100%);  
 }
+
 h3 {
     font-family: 'Courier New' 'Lekton' 'monospace';
     letter-spacing: 2px;
     font-size: 20px;
 }
+
