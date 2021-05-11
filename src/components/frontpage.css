@@ -1,0 +1,28 @@
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    float: left;
+
+    
+}
+
+#left-box {
+    width: 50%;
+
+ 
+}
+
+#right-box {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    align-items: flex-end;
+    flex-direction: right;
+}
+
+#flow-ball {
+    width: 50%;
+}
