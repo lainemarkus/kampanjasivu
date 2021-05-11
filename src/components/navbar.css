@@ -18,6 +18,14 @@
     list-style: none;
     justify-content: center;
 }
+.nav-menu-active {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    list-style: none;
+    justify-content: center;
+    padding: 0px;
+    justify-self: flex-end;
+}
 .menu-icon {
     color: #803e65;
     display: none;
@@ -36,5 +44,7 @@
         display: flex;
         justify-self: flex-end;
     }
-
+    .nav-menu {
+        display: none;
+    }
 }
