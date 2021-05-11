@@ -6,6 +6,7 @@ export default function Navbar() {
     const [click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
     const closeMobileMenu = () => setClick(false);
+
     return (
         <>
             <nav className="navbar">
@@ -33,7 +34,7 @@ export default function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/info' className='nav-links-mobile' onClick={closeMobileMenu}>
+                            <Link to='/info' className='nav-links' onClick={closeMobileMenu}>
                                 Tietoa koronavirusrokotteesta
                             </Link>
                         </li>

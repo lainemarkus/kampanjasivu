@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 20px 0 20px;
+}
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 20px;
+    list-style: none;
+    justify-content: center;
+}
+.menu-icon {
+    color: #803e65;
+    display: none;
+}
+.nav-links {
+    color: #803e65;
+    text-decoration: none;
+}
+.navbar-logo {
+    color: #803e65;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 960px) {
+    .menu-icon {
+        display: flex;
+        justify-self: flex-end;
+    }
+
+}
