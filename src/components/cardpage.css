@@ -1,0 +1,21 @@
+.card-whole {
+    display: flex;
+    justify-content: center;
+}
+.card-wrapper {
+    width: 680px;
+    height: 770px;
+    background: #d1f3ff;
+    border-radius: 44px;
+}
+.card-title {
+    width: 680px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+}
+.card-changing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
