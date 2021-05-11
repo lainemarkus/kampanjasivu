@@ -5,6 +5,25 @@ body {
     font-weight: bold;
     background: linear-gradient(180deg, #c9dfeb 0%, #BCE2F5 5%, #B1DAE7 61.98%, #A4D6ED 100%);  
 }
+
+h1 {
+    font-family: 'Lekton';
+    letter-spacing: 0.04em;
+    font-weight: 600;
+}
+
+
+h2 {
+    font-family: 'Lekton';
+    letter-spacing: 0.07em;
+}
+
+h3 {
+    font-family: 'Lekton';
+    letter-spacing: 2px;
+    font-size: 20px;
+} 
+
 .monospace {
     font-family: 'Lekton' 'monospace';
     letter-spacing: 2px;
@@ -13,9 +32,11 @@ body {
 
 button {
     width: 230px;
-    height: 49px;
+    height: 46px;
     border-radius: 30px;
+    font-family: 'Lekton';
     font-size: 22px;
+    font-weight: 600;
     border: none;
     background-color: #D1F3FF;
     filter: drop-shadow(0px 3px 12px rgba(129, 127, 127, 0.25));
