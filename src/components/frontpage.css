@@ -23,6 +23,20 @@
     flex-direction: right;
 }
 
-#flow-ball {
+#flow-img {
     width: 50%;
 }
+
+header {
+
+    padding: 6rem;
+}
+
+#cover-img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 50%;
+    min-width: 300px;
+  }
