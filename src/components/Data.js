@@ -1,10 +1,10 @@
 export const Data = [
     {
-        kysymys: 'mitä kuuluu',
-        vastaus: 'ihan hyvää'
+        question: 'mitä kuuluu',
+        answer: 'ihan hyvää'
     },
     {
-        kysymys: 'miten meneee',
-        vastaus: 'se on nahkahanska'
+        question: 'miten meneee',
+        answer: 'se on nahkahanska'
     }
 ]
