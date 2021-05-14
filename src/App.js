@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Frontpage from './components/frontpage';
 import Cardpage from './components/cardpage';
 
+
 function App() {
   return (
     <>
