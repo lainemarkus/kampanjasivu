@@ -1,13 +1,14 @@
 import React, {useState} from 'react'
 import {Link} from 'react-router-dom';
 import "./frontpage.css"
-import flowball from './flow-ball.png';
-
+import flowimg from './flow-img.png';
+import festival from'./festival.png';
 
 export default function Frontpage() {
 
     return (
         <>
+        <img id="cover-img"src={festival}></img>
         <header>     
             <div id="header-animation">insert animation</div>  
             <h1>OLET OSA JOTAIN ITSEÄSI SUUREMPAA</h1>
@@ -26,7 +27,7 @@ export default function Frontpage() {
             </div>
 
             <div class="flex-container" id="right-box">
-                <img id="flow-ball" src={flowball} width="100%" alt="kuva"/>
+                <img id="flow-img" src={flowimg} width="100%" alt="kuva"/>
             </div>
 
             <div>
