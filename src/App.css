@@ -41,6 +41,12 @@ button {
     border: none;
     background-color: #D1F3FF;
     filter: drop-shadow(0px 3px 12px rgba(129, 127, 127, 0.25));
+    transition: 0.2s;
+}
 
+button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.2s;
 }
 

@@ -3,7 +3,11 @@
     justify-content: center;
     align-items: center;
     background: transparent;
+    font-size: 16px;
+
 }
+
+
 .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -14,7 +18,7 @@
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(4, auto);
-    grid-gap: 20px;
+    grid-gap: 40px;
     list-style: none;
     justify-content: center;
 }
@@ -33,7 +37,14 @@
 .nav-links {
     color: #803e65;
     text-decoration: none;
+    transition: 0.2s;
 }
+
+.nav-links:hover {
+    color: #CD64A3;
+    transition: 0.2s;
+}
+
 .navbar-logo {
     color: #803e65;
     text-decoration: none;

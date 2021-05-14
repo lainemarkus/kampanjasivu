@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import './cardpage.css'
 import Questioncard from './questioncard'
 import Answercard from './answercard'
+import festival from './festival.png'
 
 export default function Cardcontainer() {
     const [questionNumber, setQuestionNumber] = useState(1)
@@ -26,6 +27,7 @@ export default function Cardcontainer() {
     
     return (
         <>
+        <img id="cover-img"src={festival}></img>
         <h1>TESTAA TIETOSI KORONAROKOTTEESTA</h1>
         <div className='card-whole'>
             <div className='card-wrapper'>
