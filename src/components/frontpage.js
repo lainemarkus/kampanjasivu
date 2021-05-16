@@ -59,7 +59,13 @@ export default function Frontpage() {
            
             <div className="flex-container">
                 <h4>Testaa, osaatko erottaa virheelliset väittämät faktoista!</h4>
-                <button>TESTAA TIETOSI</button>
+                <Link to='/test' className='button-link'>
+                <button>
+                    
+                        TESTAA TIETOSI
+                    
+                    </button>
+                    </Link>
             
 
 

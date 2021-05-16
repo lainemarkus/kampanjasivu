@@ -75,6 +75,10 @@ header {
     background: black;
 }
 
+.button-link {
+    width: 100%;
+}
+
 
 @media (max-width: 700px) {
     #left-box {
