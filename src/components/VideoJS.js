@@ -1,6 +1,6 @@
 import React from 'react';
 import VideoPlayer from "react-video-js-player";
-import Video from "./video/video.mp4";
+import Video from "./video/video1.mp4";
 import './Video.css';
 
 export default function VideoJS() {
