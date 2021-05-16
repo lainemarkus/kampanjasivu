@@ -4,7 +4,7 @@ import "./frontpage.css"
 import flowimg from './flow-img.png';
 import festival from'./festival.png';
 import Typist from 'react-typist';   //lataa Typist komennolla: npm install react-typist --save
-
+import VideoJS from './VideoJS';
 
 export default function Frontpage() {
 
@@ -34,9 +34,7 @@ export default function Frontpage() {
         </header>
 
         <section id="video">
-            <p>
-                video mockup 
-            </p>
+            <VideoJS />
         </section>
 
         <section>

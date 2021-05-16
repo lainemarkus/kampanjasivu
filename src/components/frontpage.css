@@ -71,8 +71,10 @@ header {
 }
 
 #video {
-    padding: 15rem;
+    display: flex;
+    justify-content: center;
     background: black;
+    
 }
 
 .button-link {
