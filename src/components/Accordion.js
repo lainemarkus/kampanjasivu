@@ -13,15 +13,16 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 position: relative;
-height: 100vh;
+min-height: max-content;
 text-size: flex;
+padding-bottom: 40px;
+padding-top: 150px;
 `;
 
 const Container = styled.div`
-position: absolute;
 top: 30%;
 box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);
-width: 90%;
+padding: 20px;
 `;
 
 const Wrap = styled.div`
@@ -30,17 +31,18 @@ color: #fff
 display: flex;
 justify-content: space-between;
 align-items: center;
-width: 100%;
+width: 90vw;
 text-align: center;
 cursor: pointer;
 
 h1 {
     padding: 2rem;
-    fontsize: 2rem
+    fontsize: 2rem;
+    overflow-wrap: break-word;
 }
 
 span {
-    margin-right: 1.5rem;
+
 }
 
 
@@ -49,18 +51,24 @@ span {
 const Dropdown = styled.div`
   background: #EDFAFF;  
   color: #D1F3FF
-  height: 100px;
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow-wrap: break-word;
   border-bottom: 1px solid #fff;
   border-top: 1px solid #D1F3FF; 
-  padding: 5px
-  max-width: 100%
+  width: max-content;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ 
   
 `
+/*border-bottom: 1px solid #fff;
+  border-top: 1px solid #D1F3FF; 
+  padding: 50px;
+  width: 300px;
+  */
 
 const Accordion = () => {
     const [clicked, setClicked] = useState(false)
@@ -88,7 +96,8 @@ const Accordion = () => {
                         </Wrap>
                         {clicked === index ? (
                             <Dropdown>
-                            <p>{item.answer}</p>
+                            <div className = "linkkiDiv" style= {{ width: "80vw", margin: "0 5vw 0 5vw"}} dangerouslySetInnerHTML = {{__html:item.answer}} ></div>
+                            
                             </Dropdown>
                         ): null}
                         </>

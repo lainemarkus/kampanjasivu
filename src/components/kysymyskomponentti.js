@@ -8,12 +8,18 @@ import styled from 'styled-components'
 
 const Otsikko = styled.div`
 
-
+font-size: 3vw;
 position: relative;
 text-align: center;
 width: 100%
 justify-content: center;
+margin-top: 20%;
+`
 
+const AlempiKuva = styled.div`
+position: absolute;
+right: 0;
+top: 100vh;
 
 `
 
@@ -22,8 +28,8 @@ export default function kysymyskomponentti(props) {
      <img id="cover-img" src={festival} alt="kuva"></img>
      <Otsikko ><h1>Usein kysytyt kysymykset</h1></Otsikko>
     < Accordion />
-    <div className="flex-container" id="right-box">
+    <AlempiKuva>
      <img id="flow-img" src={flowimg} alt="kuva" ></img>
-    </div>
+    </AlempiKuva>
     </>)
 }
