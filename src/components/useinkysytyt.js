@@ -4,11 +4,12 @@ import Kysymyskomponentti from "./kysymyskomponentti"
 
 
 
+
 export default function Kysymyslaatikot() {
     return(<>
-    < Kysymyskomponentti
-    kysymys = ""
-    vastaus = ""
-    />
+    
+    
+    < Kysymyskomponentti/>
+     
     </>)
 }

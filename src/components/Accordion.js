@@ -6,6 +6,7 @@ import {FiPlus, FiMinus} from 'react-icons/fi'
 import {useState, DropDown} from 'react'
 
 
+
 const AccordionSection = styled.div`
 display: flex;
 flex-direction: column;
@@ -13,17 +14,18 @@ align-items: center;
 justify-content: center;
 position: relative;
 height: 100vh;
-background: #fff
+text-size: flex;
 `;
 
 const Container = styled.div`
 position: absolute;
 top: 30%;
 box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);
+width: 90%;
 `;
 
 const Wrap = styled.div`
-background: #272727;
+background: #D1F3FF;
 color: #fff
 display: flex;
 justify-content: space-between;
@@ -41,24 +43,23 @@ span {
     margin-right: 1.5rem;
 }
 
-text{
-    color: white
-}
+
 `;
 
-
-
 const Dropdown = styled.div`
-  background: #1c1c1c;
-  color: #00ffb9
+  background: #EDFAFF;  
+  color: #D1F3FF
   height: 100px;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid #00ffb9;
-  border-top: 1px solid #00ffb9; 
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #D1F3FF; 
+  padding: 5px
+  max-width: 100%
+  
 `
 
 const Accordion = () => {
@@ -74,7 +75,8 @@ const Accordion = () => {
 
 
     return (
-        < IconContext.Provider value= {{ color: '#D1F3FF', size: '25px'}}>
+        
+        < IconContext.Provider value= {{ color: '#000000', size: '25px'}}>
         <AccordionSection>
             <Container>
                 {Data.map((item, index) =>{
