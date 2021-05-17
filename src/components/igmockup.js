@@ -16,12 +16,12 @@ export default function Igmockup() {
                     #osanasuurempaa
                 </div>
                 <div className='ig-grid'>
-                    <img className='ig-photo' src={igpost1} />
-                    <img className='ig-photo' src={igpost2} />
-                    <img className='ig-photo' src={igpost3} />
-                    <img className='ig-photo' src={igpost2} />
-                    <img className='ig-photo' src={igpost4} />
-                    <img className='ig-photo' src={igpost2} />
+                    <div className='photo-wrapper'><img className='ig-photo' src={igpost1} /></div>
+                    <div className='photo-wrapper'><img className='ig-photo' src={igpost2} /></div>
+                    <div className='photo-wrapper'><img className='ig-photo' src={igpost3} /></div>
+                    <div className='photo-wrapper'><img className='ig-photo' src={igpost2} /></div>
+                    <div className='photo-wrapper'><img className='ig-photo' src={igpost4} /></div>
+                    <div className='photo-wrapper'><img className='ig-photo' src={igpost2} /></div>
                 </div>
             </div> 
         </div>    

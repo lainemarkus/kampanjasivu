@@ -84,7 +84,6 @@ export default function Frontpage() {
         </section>
    
         <section className="flex-container"> 
-            <h2>SEURAA INSTAGRAMISSA</h2>
             <Igmockup />
         </section>
            

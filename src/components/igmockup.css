@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     font-family:'Raleway', Arial, Helvetica, sans-serif;
-    padding-top: 5px;
+    padding: 5px 0;
 }
 .ig-logo {
     width: 3rem;
@@ -24,16 +24,24 @@
 .ig-grid {
     box-sizing: border-box;
     width: 100%;
-    padding: 1%;
+    padding: 0 1% 1% 1%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-column-gap: 1%;
     grid-row-gap: 1%;
 }
+.photo-wrapper {
+    overflow: hidden;
+    border-radius: 10px;
+}
 .ig-photo {
     border-radius: 10px;
     width: 100%;
+    transition: 0.5s ease-out;
+}
+.ig-photo:hover {
+    transform: scale(1.05);
 }
 
 @media screen and (max-width: 960px) {
