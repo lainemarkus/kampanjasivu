@@ -1,6 +1,11 @@
+button {
+    background-color: #e8f8ff;
+}
+
 .cardpage-title {
     display: flex;
     justify-content: center;
+    padding: 6rem 1rem;
 }
 
 .card-section {
@@ -9,10 +14,12 @@
 }
 .card-wrapper {
     width: 80%;
-    height: 680px;
+    height:650px;
     background: #d1f3ff;
-    border-radius: 44px;
+    border-radius: 25px;
     max-width: 680px;
+    margin: 2rem;
+
 }
 .card-title {
     width: 90%;
@@ -21,27 +28,33 @@
     padding-left: 5%;
     
 }
+
 .question-text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px 0 20px 0;
-    padding: 10px;
+    margin: 0;
+    padding: 2rem;
 }
 .question-image {
-    width: 70%;
+    width: 100%;
     margin-bottom: 20px;
 }
 .question-buttons {
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
+    
+ 
 }
 .question-buttons button {
     margin: 5px;
+
 }
 
 .answer-text {
-    margin: 0 0 20px 20px;
+    font-weight: 500;
+    margin: 1rem;
+    padding: 1rem;
 }
 .answer-buttons {
     margin: 0 0 0 20px;
@@ -52,4 +65,12 @@
 }
 .ending-buttons {
     margin: 0 0 0 20px;
+}
+
+.large-font {
+    font-size: 35px;
+}
+
+#next-button {
+    text-align: center;
 }
