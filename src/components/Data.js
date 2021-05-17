@@ -1,15 +1,15 @@
 export const Data = [
     {
         question: 'Tarjoaako rokote pysyvän suojan COVID-19 vastaan?',
-        answer: 'Koska COVID-rokotteita on kehitetty vasta viime kuukausina, on liian aikaista tietää COVID-19-rokotteiden suojan kestoa. Tätä tutkitaan tällä hetkellä.<br><br> On kuitenkin rohkaisevaa, että käytettävissä olevat tiedot viittaavat siihen, että nyt COVID-19: stä toipuville ihmisille kehittyy immuunivaste, joka tarjoaa ainakin jonkin verran suojaa uudelleeninfektioita vastaan. [6]'
+        answer: 'Koska COVID-rokotteet ovat tulleet käyttöön vasta viime kuukausina, on liian aikaista tietää COVID-19-rokotteiden suojan pitkäaikaista kestoa. Tätä tutkitaan tällä hetkellä.<br><br> On kuitenkin rohkaisevaa, että käytettävissä olevat tiedot viittaavat siihen, että nyt COVID-19: stä toipuville ihmisille kehittyy immuunivaste, joka tarjoaa ainakin jonkin verran suojaa uudelleeninfektioita vastaan. [6]'
     },
     {
-        question: ' Korona-rokote kehitettiin nopeasti – onko tämä merkki siitä, ettei turvallisuusmääräyksiä ja lakia noudatettu?',
-        answer: 'COVID-19-rokotteet kehitetään samojen lakien lääkkeiden laatua, turvallisuutta ja tehoa koskevien vaatimusten mukaisesti kuin muutkin lääkkeet. <br><br> Kuten kaikki lääkkeet, COVID-19-rokotteiden vaikutukset testataan ensin laboratoriossa, myös eläimillä, ja sitten rokotteet testataan vapaaehtoisilla ihmisillä. [1]<br><br>  Lisätietoa:<br> <a target= "_blank" href= " https://www.ema.europa.eu/en/human-regulatory/overview/public-health-threats/coronavirus-disease-covid-19/treatments-vaccines/vaccines-covid-19/covid-19-vaccines-development-evaluation-approval-monitoring"> https://www.ema.europa.eu/en/human-regulatory/overview/public-health-threats/coronavirus-disease-covid-19/treatments-vaccines/vaccines-covid-19/covid-19-vaccines-development-evaluation-approval-monitoring </a>'
+        question: 'Koronarokote kehitettiin nopeasti – onko tämä merkki siitä, ettei turvallisuusmääräyksiä ja lakia noudatettu?',
+        answer: 'Koronarokotteiden kehityksessä on noudatettu samoja laillisia määräyksiä kuin kaikkien muidenkin lääkkeiden ja rokotteiden kehityksessä. Näin voidaan taata koronarokotteen turvallisuus, laatu ja tehokkuus. Koronarokotteiden markkinoille tuloa on myös nopeuttanut poikkeuksellisen suuret resurssit sekä jo aiemmin tehty tutkimustyö samankaltaisten rokotteiden parissa. </br><br>Kuten kaikki lääkkeet, COVID-19-rokotteiden vaikutukset testataan ensin laboratoriossa, myös eläimillä, ja sitten rokotteet testataan vapaaehtoisilla ihmisillä.[1]<br><br>  Lisätietoa:<br> <a target= "_blank" href= " https://www.ema.europa.eu/en/human-regulatory/overview/public-health-threats/coronavirus-disease-covid-19/treatments-vaccines/vaccines-covid-19/covid-19-vaccines-development-evaluation-approval-monitoring"> COVID-19 vaccines: development, evaluation, approval and monitoring </a>'
     },
     {
         question: 'Olen sairastanut koronan, tarvitsenko enää rokotetta?',
-        answer: 'Vaikka sinulla olisi jo ollut COVID-19, sinut tulisi rokottaa, kun sitä sinulle tarjotaan. <br><br> Suoja, jonka joku saa COVID-19: n saamisesta, vaihtelee henkilöittäin, ei myöskään tiedetä, kuinka kauan luonnollinen immuniteetti voi kestää. [6]'
+        answer: 'Vaikka sinulla olisi jo ollut COVID-19, sinut tulisi rokottaa, kun sitä sinulle tarjotaan. <br><br> Suoja, jonka joku saa COVID-19: n saamisesta, vaihtelee henkilöittäin. Ei myöskään tiedetä, kuinka kauan luonnollinen immuniteetti voi kestää. [6]'
     },
     {
         question: 'Onko koronarokote turvallinen?',

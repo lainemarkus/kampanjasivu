@@ -61,16 +61,20 @@ button {
 }
 
 .ending-text {
-    margin: 0 0 20px 20px;
+
+    margin: 3rem;
+    text-align: center;
+
 }
 .ending-buttons {
     margin: 0 0 0 20px;
+    text-align: center;
 }
 
 .large-font {
     font-size: 35px;
 }
 
-#next-button {
+.next-button {
     text-align: center;
 }

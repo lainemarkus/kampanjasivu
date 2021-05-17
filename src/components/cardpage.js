@@ -48,17 +48,17 @@ export default function Cardcontainer() {
         },
         {
             id: '2',
-            question: 'Koronarokote ei anna 100% suojaa.',
+            question: 'Koronarokote ei anna täydellistä suojaa koronavirukselta.',
             answerOptions: [
                 { answer: 'TOTTA', isCorrect: true },
                 { answer: 'TARUA', isCorrect: false },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Koronarokotteella on todettu olevan noin 95% teho. Käytännössä millään rokotteella ei ole 100% tehoa, mutta vähempi tehokkuus riittää siihen, että viruksen leviäminen saadaan estettyä populaatiossa. [2]'
+            answerExplanation: 'Koronarokotteella on todettu olevan noin 95 prosentin teho. Käytännössä millään rokotteella ei ole sadan prosentin tehoa, mutta vähempikin tehokkuus riittää siihen, että viruksen leviäminen saadaan estettyä populaatiossa. [2]'
         },
         {
             id: '3',
-            question: 'Laumaimmuniteetin saavuttamiseen riittää se, että vanhukset ja noin 50% koko Suomesta ovat rokotettu.',
+            question: 'Laumaimmuniteetin saavuttamiseen riittää se, että vanhukset ja noin 50 prosenttia koko Suomesta ovat rokotettu.',
             answerOptions: [
                 { answer: 'TOTTA', isCorrect: false },
                 { answer: 'TARUA', isCorrect: true },
@@ -68,17 +68,17 @@ export default function Cardcontainer() {
         },
         {
             id: '4',
-            question: 'Nyt kun noin 50% suomalaisista on jo rokotettu, minun ei kannata ottaa rokotetta.',
+            question: 'Nyt kun noin 50 prosenttia suomalaisista on jo rokotettu, minun ei tarvitse ottaa rokotetta.',
             answerOptions: [
                 { answer: 'TOTTA', isCorrect: false },
                 { answer: 'TARUA', isCorrect: true },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Vaikka 50% väestöstä onkin rokotettu, on tärkeää, että rokotuksia jatketaan siihen asti että laumaimmuniteetin raja (80%) saavutetaan. [4]'
+            answerExplanation: 'Vaikka puolet väestöstä onkin jo rokotettu, on tärkeää, että rokotuksia jatketaan, kunnes laumaimmuniteetin raja (80%) saavutetaan. [4]'
         },
         {
             id: '5',
-            question: 'Nuorten ihmisten on turha ottaa rokotetta, koska he eivät välttämättä saa ollenkaan oireita.',
+            question: 'Nuorten ihmisten on turha ottaa rokotetta, koska he eivät välttämättä saa ollenkaan oireita koronatartunnasta.',
             answerOptions: [
                 { answer: 'TOTTA', isCorrect: false },
                 { answer: 'TARUA', isCorrect: true },
@@ -114,11 +114,11 @@ export default function Cardcontainer() {
                 { answer: 'TARUA', isCorrect: true },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Rokotteen ottaminen kannattaa, vaikka olisit sairastanut koronaviruksen, koska luonnollinen immuniteetti ei ole välttämättä vedenpitävä. [6]'
+            answerExplanation: 'Rokotteen ottaminen on tarpeellista, vaikka olisit sairastanut koronaviruksen, koska luonnollinen immuniteetti ei ole välttämättä riittävä. [6]'
         },
         {
             id: '9',
-            question: 'Koronavirus voi levitä itikkojen puremien kautta.',
+            question: 'Koronavirus voi levitä itikanpuremien kautta.',
             answerOptions: [
                 { answer: 'TOTTA', isCorrect: false },
                 { answer: 'TARUA', isCorrect: true },
@@ -174,11 +174,11 @@ export default function Cardcontainer() {
                     <div className='answer-buttons'>
                         {(questionIndex < (questionData.length - 1)) ?
                             <>
-                            <div id="next-button"><button onClick={function(){handleAnswerClick();handleNextQuestionClick()}}>SEURAAVA KYSYMYS</button></div>
+                            <div className="next-button"><button onClick={function(){handleAnswerClick();handleNextQuestionClick()}}>SEURAAVA KYSYMYS</button></div>
                             </>
                             :
                             <>
-                            <button onClick={setQuizEnded}>Lopetus</button>
+                            <div className="next-button"><button onClick={setQuizEnded}>Lopetus</button></div>
                             </>
                         }
                         
