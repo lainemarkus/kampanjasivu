@@ -3,8 +3,9 @@ import "./kysymyskomponentti.css"
 import Accordion from './Accordion.js'
 import festival from'./festival.png';
 import flowimg from './flow-img.png';
-import "./frontpage.css"
-import styled from 'styled-components'
+import "./frontpage.css";
+import styled from 'styled-components';
+import SideNav from './sidenav.js';
 
 const Otsikko = styled.div`
 
@@ -21,7 +22,7 @@ const AlempiKuva = styled.div`
 position: absolute;
 right: 0;
 top: 100vh;
-
+width: 60%
 `
 
 export default function kysymyskomponentti(props) {
@@ -32,5 +33,7 @@ export default function kysymyskomponentti(props) {
      <img id="flow-img" src={flowimg} alt="kuva" ></img>
     </AlempiKuva>
     < Accordion />
+    
+    <SideNav/>
     </>)
 }

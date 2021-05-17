@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import './cardpage.css'
 import festival from'./festival.png';
+import SideNav from  './sidenav.js';
 
 
 
@@ -208,6 +209,9 @@ export default function Cardcontainer() {
                 
             </div>
             
+        </div>
+        <div>
+            <SideNav/>
         </div>
         </>
     )

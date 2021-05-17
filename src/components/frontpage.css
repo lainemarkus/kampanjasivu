@@ -27,10 +27,11 @@ p {
     width: 100%;
     text-align: left;
     float: left;
-    padding: 0 2rem;
+    padding: 0;
 
     
 }
+
 
 #left-box {
     width: 45%;
@@ -80,7 +81,8 @@ header {
 }
 
 #text {
-
+    padding: 0 0 0 2rem;
+    margin-top: 1rem;
     width: 60%;
     float: right;
     background: #d1f3ff;
@@ -92,6 +94,13 @@ header {
     width: 100%;
 }
 
+.button-link button {
+    background: #d1f3ff;
+}
+
+.button-link button:hover {
+    background: #ebf9ff;
+}
 
 @media (max-width: 700px) {
     #left-box {

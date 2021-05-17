@@ -1,7 +1,7 @@
 export const Data = [
     {
         question: 'Tarjoaako rokote pysyvän suojan COVID-19 vastaan?',
-        answer: 'Koska COVID-rokotteet ovat tulleet käyttöön vasta viime kuukausina, on liian aikaista tietää COVID-19-rokotteiden suojan pitkäaikaista kestoa. Tätä tutkitaan tällä hetkellä.<br><br> On kuitenkin rohkaisevaa, että käytettävissä olevat tiedot viittaavat siihen, että nyt COVID-19: stä toipuville ihmisille kehittyy immuunivaste, joka tarjoaa ainakin jonkin verran suojaa uudelleeninfektioita vastaan. [6]'
+        answer: 'Koska COVID-rokotteet ovat tulleet käyttöön vasta viime kuukausina, on liian aikaista arvioida luotettavasti COVID-19-rokotteiden suojan pitkäaikaista kestoa. Tätä tutkitaan tällä hetkellä.<br><br> On kuitenkin rohkaisevaa, että käytettävissä olevat tiedot viittaavat siihen, että nyt COVID-19:stä toipuville ihmisille kehittyy immuunivaste, joka tarjoaa ainakin jonkin verran suojaa uudelleeninfektioita vastaan. [6]'
     },
     {
         question: 'Koronarokote kehitettiin nopeasti – onko tämä merkki siitä, ettei turvallisuusmääräyksiä ja lakia noudatettu?',
@@ -9,19 +9,19 @@ export const Data = [
     },
     {
         question: 'Olen sairastanut koronan, tarvitsenko enää rokotetta?',
-        answer: 'Vaikka sinulla olisi jo ollut COVID-19, sinut tulisi rokottaa, kun sitä sinulle tarjotaan. <br><br> Suoja, jonka joku saa COVID-19: n saamisesta, vaihtelee henkilöittäin. Ei myöskään tiedetä, kuinka kauan luonnollinen immuniteetti voi kestää. [6]'
+        answer: 'Vaikka sinulla olisi jo ollut COVID-19, sinun tulisi ottaa rokote, kun sitä sinulle tarjotaan. <br><br> Suoja, jonka saa COVID-19 -tartunnan saamisesta, vaihtelee henkilöittäin. Ei myöskään ole varmuutta siitä, kuinka kauan luonnollinen immuniteetti voi kestää. [6]'
     },
     {
         question: 'Onko koronarokote turvallinen?',
-        answer: 'COVID-19-rokotteet ovat turvallisia, ja rokottaminen auttaa suojaamaan vakavan COVID-19-taudin kehittymiseltä ja kuolemalta. Rokotuksen jälkeen voi kokea lieviä sivuvaikutuksia, jotka ovat merkkejä siitä, että kehosi rakentaa suojaa. [8]'
+        answer: 'COVID-19-rokotteet ovat turvallisia, ja rokottaminen auttaa suojaamaan vakavan COVID-19-taudin kehittymiseltä ja kuolemalta. Rokotuksen jälkeen saattaa ilmetä lieviä sivuvaikutuksia, jotka ovat merkkejä siitä, että kehosi rakentaa suojaa. [8]'
     },
     {
         question: 'Onko Astra Zenecan rokotteessa suuri riski veritulppaan?',
-        answer: 'Ei ole, tutkimusten mukaan 182 ihmistä sadasta yhdeksästäkymmenestä miljoonasta ovat saaneet tulpan. <br><br> Jos siis näiden kahden tapahtuman välillä olisi linkki, se olisi erittäin heikko ja epätodennäköinen linkki. Todennäköisyytenä tämä tarkoittaa 0,000095 prosenttia.<br><br>  Esimerkiksi todennäköisyys sille että salama iskee sinuun elinaikanasi on 1:15000 eli prosentteina 0,0066, mikä on huomattavasti suurempi, kuin riski saada veritulppa rokotteesta. [9] [10]'
+        answer: 'Ei ole, tutkimusten mukaan 182 ihmistä sadasta yhdeksästäkymmenestä miljoonasta ovat saaneet veritulpan. <br><br> Jos siis näiden kahden tapahtuman välillä olisi linkki, se olisi erittäin heikko ja epätodennäköinen linkki. Todennäköisyytenä tämä tarkoittaa 0,000095 prosenttia.<br><br>  Esimerkiksi todennäköisyys sille, että salama iskee sinuun elinaikanasi, on 1:15000 eli prosentteina 0,0066. Tämä on huomattavasti suurempi kuin riski saada veritulppa rokotteesta. [9] [10]'
     },
     {
         question: 'Mitä tarkoittaa laumaimmuniteetti?',
-        answer: 'Laumaimmuniteetti, joka tunnetaan myös nimellä populaation immuniteetti, on epäsuora suoja tartuntatauteja vastaan, jota esiintyy, kun populaatio on immuuni joko rokotuksen tai edellisen infektion kautta syntyneen immuniteetin avulla. [3] <br><br>  Laumaimmuniteetti tarkoittaa käytännössä siis tilaa, jossa tarpeeksi suuri osa populaatiosta on immuuni taudille. COVID-19 tapauksessa 80% arvellaan riittävän laumaimmuniteettiin. <br><br>  Kun tarpeeksi suuri osa on rokotettuja tai sairastaneita, virus ei leviä enää populaatiossa tehokkaasti ja myös rokottamattomat ovat siltä turvassa laumaimmuniteetin ansiosta. <br><br> Lue lisää:<br> <a target="_blank" href="https://www.who.int/news-room/q-a-detail/herd-immunity-lockdowns-and-covid-19?gclid=CjwKCAjw1uiEBhBzEiwAO9B_Hcab-fPIzH44FvkdRLTJZILJ3f_vR7RabXf27Z2gCKqVEzMVmFS8dxoC3dMQAvD_BwE#"> https://www.who.int/news-room/q-a-detail/herd-immunity-lockdowns-and-covid-19 </a>'
+        answer: 'Laumaimmuniteetti, joka tunnetaan myös nimellä populaation immuniteetti, on epäsuora suoja tartuntatauteja vastaan. Laumaimmuniteetti muodostuu, kun riittävä osa populaatiosta on immuuni taudinaiheuttajalle joko rokottautumisen tai edellisen infektion kautta syntyneen immuniteetin avulla. [3] <br><br>  Laumaimmuniteetti tarkoittaa käytännössä siis tilaa, jossa tarpeeksi suuri osa populaatiosta on immuuni taudille. COVID-19 tapauksessa 80 prosentin rokotuskattavuuden arvellaan riittävän laumaimmuniteettiin. <br><br>  Kun tarpeeksi suuri osa on rokotettuja tai sairastaneita, virus ei leviä enää populaatiossa tehokkaasti ja myös rokottamattomat ovat siltä turvassa laumaimmuniteetin ansiosta. <br><br> Lue lisää:<br> <a target="_blank" href="https://www.who.int/news-room/q-a-detail/herd-immunity-lockdowns-and-covid-19?gclid=CjwKCAjw1uiEBhBzEiwAO9B_Hcab-fPIzH44FvkdRLTJZILJ3f_vR7RabXf27Z2gCKqVEzMVmFS8dxoC3dMQAvD_BwE#"> Coronavirus disease (COVID-19): Herd immunity, lockdowns and COVID-19 </a>'
     },
     {
         question: 'Suojaako rokote, kun virus mutatoituu?',
