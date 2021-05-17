@@ -5,6 +5,7 @@ import flowimg from './flow-img.png';
 import festival from'./festival.png';
 import Typist from 'react-typist';   //lataa Typist komennolla: npm install react-typist --save
 import VideoJS from './VideoJS';
+import SideNav from './sidenav.js';
 
 export default function Frontpage() {
 
@@ -50,25 +51,35 @@ export default function Frontpage() {
                     pandemian kasvattamalla rokotettujen osuuden riittävän korkeaksi myös nuorten keskuudessa, 
                     jolloin saamme riittävän laumaimmuniteetin ja voimme palata normaaliin elämään. 
                 </p>
-            </div>
-            <div className="flex-container" id="right-box">
-                <img id="flow-img" src={flowimg} alt="kuva" ></img>
-            </div>
-           
-            <div className="flex-container">
+
+
                 <h4>Testaa, osaatko erottaa virheelliset väittämät faktoista!</h4>
                 <Link to='/test' className='button-link'>
-                <button>
+                    <button>
                     
                         TESTAA TIETOSI
                     
                     </button>
-                    </Link>
-            
+                </Link>
 
+            </div>
+            <div className="flex-container" id="right-box">
+                <img id="flow-img" src={flowimg} alt="kuva" ></img>
+
+
+                
+            </div>
+           
+            <div className="flex-container" id="text">
+           
+            
+    
 
                 <h2>PALUU NORMAALIIN ON MAHDOLLISTA VAIN SAAVUTTAMALLA RIITTÄVÄ LAUMAIMMUNITEETTI</h2>
+           
             </div>
+            <div className="flex-container sidenav-box"> <SideNav /></div>
+           
         </section>
    
         <section className="flex-container"> 
