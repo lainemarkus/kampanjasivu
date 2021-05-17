@@ -6,6 +6,7 @@ import festival from'./festival.png';
 import Typist from 'react-typist';   //lataa Typist komennolla: npm install react-typist --save
 import VideoJS from './VideoJS';
 import SideNav from './sidenav.js';
+import Igmockup from './igmockup';
 
 export default function Frontpage() {
 
@@ -84,7 +85,7 @@ export default function Frontpage() {
    
         <section className="flex-container"> 
             <h2>SEURAA INSTAGRAMISSA</h2>
-            
+            <Igmockup />
         </section>
            
 

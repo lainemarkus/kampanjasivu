@@ -15,7 +15,7 @@ justify-content: center;
 position: relative;
 min-height: max-content;
 text-size: flex;
-padding-bottom: 40px;
+padding-bottom: 200px;
 padding-top: 150px;
 `;
 
@@ -36,9 +36,13 @@ cursor: pointer;
 border-radius: 0.5rem;
 display: flex;
 margin: 15px;
+transition: 0.2s;
 
 
-
+&:hover {
+    background: rgb(250, 250, 250);
+    transition: 0.2s;
+}
 
 h1 {
     padding: 2rem;
@@ -48,12 +52,13 @@ h1 {
 }
 
 h2 {
-    padding: 10px;
+    padding: 20px;
     font-size: 1rem;
     overflow-wrap: break-word;
     width: 90%;
     display: inline-block;
     font-family: Raleway;
+
 
 }
 
@@ -113,7 +118,7 @@ const Accordion = () => {
                 {Data.map((item, index) =>{
                     return(
                         <>
-                        <Wrap onClick={() => toggle(index)} key={index}>
+                        <Wrap onClick={() => toggle(index)} key={index} >
                         <h2>{item.question}</h2>
                     <span>{clicked === index ? <FiMinus/> : <FiPlus/>}</span>
                         </Wrap>

@@ -14,6 +14,7 @@ text-align: center;
 width: 100%
 justify-content: center;
 margin-top: 15%;
+font-family: Raleway;
 `
 
 const AlempiKuva = styled.div`
@@ -27,9 +28,9 @@ export default function kysymyskomponentti(props) {
     return(<>
      <img id="cover-img" src={festival} alt="kuva"></img>
      <Otsikko ><h1>Usein kysytyt kysymykset</h1></Otsikko>
-    < Accordion />
     <AlempiKuva>
      <img id="flow-img" src={flowimg} alt="kuva" ></img>
     </AlempiKuva>
+    < Accordion />
     </>)
 }
