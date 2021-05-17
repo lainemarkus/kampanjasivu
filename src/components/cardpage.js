@@ -38,103 +38,103 @@ export default function Cardcontainer() {
     const questionData = [
         {
             id: '1',
-            question: 'Totta vai tarua? Koronavirusrokotteessa on 5G-mikrosiruja.',
+            question: 'Kun koronarokote kehitettiin, se tehtiin hätiköiden, ja turvallisuusmääräyksiä laiminlyötiin.',
             answerOptions: [
                 { answer: 'Totta', isCorrect: false },
                 { answer: 'Tarua', isCorrect: true },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Koronavirusrokotteessa ei ole 5G-mikrosiruja.'
+            answerExplanation: 'COVID-19 -rokotteet kehitetään noudattaen samoja laillisia määräyksiä, kuin muutkin lääkkeet, jotta voidaan taata rokotteen turvallisuus, laatu ja tehokkuus. [1]'
         },
         {
             id: '2',
-            question: 'Oikea vastaus on totta.',
+            question: 'Koronarokote ei anna 100% suojaa.',
             answerOptions: [
                 { answer: 'Totta', isCorrect: true },
                 { answer: 'Tarua', isCorrect: false },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Miksi on totta?'
+            answerExplanation: 'Koronarokotteella on todettu olevan noin 95% teho. Käytännössä millään rokotteella ei ole 100% tehoa, mutta vähempi tehokkuus riittää siihen, että viruksen leviäminen saadaan estettyä populaatiossa. [2]'
         },
         {
             id: '3',
-            question: 'Oikea vastaus on totta.',
-            answerOptions: [
-                { answer: 'Totta', isCorrect: true },
-                { answer: 'Tarua', isCorrect: false },
-            ],
-            src:'images/img-vaccine.jpg',
-            answerExplanation: 'Miksi on totta?'
-        },
-        {
-            id: '4',
-            question: 'Oikea vastaus on tarua.',
+            question: 'Laumaimmuniteetin saavuttamiseen riittää se, että vanhukset ja noin 50% koko Suomesta ovat rokotettu.',
             answerOptions: [
                 { answer: 'Totta', isCorrect: false },
                 { answer: 'Tarua', isCorrect: true },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Miksi on tarua?'
+            answerExplanation: 'Laumaimmuniteetti vaatii tutkimusten mukaan sen, että noin 80% populaatiosta on rokotettu. Tarvittava prosenttiosuus vaihtelee taudin mukaan. Esimerkiksi tuhkarokko vaatii sen, että 95% väestöstä on rokotettu. [3]'
+        },
+        {
+            id: '4',
+            question: 'Nyt kun noin 50% suomalaisista on jo rokotettu, minun ei kannata ottaa rokotetta.',
+            answerOptions: [
+                { answer: 'Totta', isCorrect: false },
+                { answer: 'Tarua', isCorrect: true },
+            ],
+            src:'images/img-vaccine.jpg',
+            answerExplanation: 'Vaikka 50% väestöstä onkin rokotettu, on tärkeää, että rokotuksia jatketaan siihen asti että laumaimmuniteetin raja (80%) saavutetaan. [4]'
         },
         {
             id: '5',
-            question: 'Oikea vastaus on totta.',
+            question: 'Nuorten ihmisten on turha ottaa rokotetta, koska he eivät välttämättä saa ollenkaan oireita.',
             answerOptions: [
-                { answer: 'Totta', isCorrect: true },
-                { answer: 'Tarua', isCorrect: false },
+                { answer: 'Totta', isCorrect: false },
+                { answer: 'Tarua', isCorrect: true },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Miksi on totta?'
+            answerExplanation: 'Koronavirus leviää paljon nuorten keskuudessa ja nuoret voivat tartuttaa esimerkiksi isovanhempansa.'
         },
         {
             id: '6',
-            question: 'Oikea vastaus on totta.',
+            question: 'Koronavirus ei leviä veden kautta, esimerkiksi uidessa.',
             answerOptions: [
                 { answer: 'Totta', isCorrect: true },
                 { answer: 'Tarua', isCorrect: false },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Miksi on totta?'
+            answerExplanation: 'Koronavirus ei leviä veden kautta. Virus silti leviää tartunnan saaneen ihmisen läheisyydessä. [5]'
         },
         {
             id: '7',
-            question: 'Oikea vastaus on totta.',
+            question: 'Lisäämällä pippurin määrää ruoassa keskimäärin, kasvatat immuniteettiasi koronavirusta vastaan.',
             answerOptions: [
-                { answer: 'Totta', isCorrect: true },
-                { answer: 'Tarua', isCorrect: false },
+                { answer: 'Totta', isCorrect: false },
+                { answer: 'Tarua', isCorrect: true },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Miksi on totta?'
+            answerExplanation: 'Pippurin syömisellä ei ole todettu vaikutuksia tässä asiassa. [5]'
         },
         {
             id: '8',
-            question: 'Oikea vastaus on totta.',
+            question: 'Jos olet jo saanut tartunnan ja parantunut, sinun ei kannata ottaa rokotetta.',
             answerOptions: [
-                { answer: 'Totta', isCorrect: true },
-                { answer: 'Tarua', isCorrect: false },
+                { answer: 'Totta', isCorrect: false },
+                { answer: 'Tarua', isCorrect: true },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Miksi on totta?'
+            answerExplanation: 'Rokotteen ottaminen kannattaa, vaikka olisit sairastanut koronaviruksen, koska luonnollinen immuniteetti ei ole välttämättä vedenpitävä. [6]'
         },
         {
             id: '9',
-            question: 'Oikea vastaus on totta.',
+            question: 'Koronavirus voi levitä itikkojen puremien kautta.',
             answerOptions: [
-                { answer: 'Totta', isCorrect: true },
-                { answer: 'Tarua', isCorrect: false },
+                { answer: 'Totta', isCorrect: false },
+                { answer: 'Tarua', isCorrect: true },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Miksi on totta?'
+            answerExplanation: 'Itikanpuremilla ei ole todettu olevan levittävää vaikutusta koronavirusta koskien. [5]'
         },
         {
             id: '10',
-            question: 'Oikea vastaus on totta.',
+            question: 'Koronavirus kehitettiin laboratioriossa.',
             answerOptions: [
-                { answer: 'Totta', isCorrect: true },
-                { answer: 'Tarua', isCorrect: false },
+                { answer: 'Totta', isCorrect: false },
+                { answer: 'Tarua', isCorrect: true },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Miksi on totta?'
+            answerExplanation: 'Koronaviruksen alkulähde on kiinalainen eläinruokatori.'
         },
     ]
     
