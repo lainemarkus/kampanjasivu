@@ -8,12 +8,12 @@ import styled from 'styled-components'
 
 const Otsikko = styled.div`
 
-font-size: 3vw;
+font-size: 2vw;
 position: relative;
 text-align: center;
 width: 100%
 justify-content: center;
-margin-top: 20%;
+margin-top: 15%;
 `
 
 const AlempiKuva = styled.div`

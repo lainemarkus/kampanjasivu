@@ -23,26 +23,47 @@ const Container = styled.div`
 top: 30%;
 box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);
 padding: 20px;
+border-radius: 0.5rem;
 `;
 
 const Wrap = styled.div`
 background: #D1F3FF;
 color: #fff
-display: flex;
 justify-content: space-between;
 align-items: center;
 width: 90vw;
-text-align: center;
+text-align: normal;
 cursor: pointer;
+border-radius: 0.5rem;
+display: flex;
+margin: 15px;
+
+
+
 
 h1 {
     padding: 2rem;
-    fontsize: 2rem;
+    font-size: 2rem;
     overflow-wrap: break-word;
+    border-radius: 0.5rem;
 }
+
+h2 {
+    padding: 10px;
+    font-size: 1rem;
+    overflow-wrap: break-word;
+    width: 90%;
+    display: inline-block;
+    font-family: Raleway;
+
+}
+
+
+
 
 span {
 
+   
 }
 
 
@@ -58,9 +79,12 @@ const Dropdown = styled.div`
   overflow-wrap: break-word;
   border-bottom: 1px solid #fff;
   border-top: 1px solid #D1F3FF; 
-  width: max-content;
+  width: 90vw;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-radius: 0.5rem;
+  margin: 15px;
+
  
   
 `
@@ -91,7 +115,7 @@ const Accordion = () => {
                     return(
                         <>
                         <Wrap onClick={() => toggle(index)} key={index}>
-                        <h1>{item.question}</h1>
+                        <h2>{item.question}</h2>
                     <span>{clicked === index ? <FiMinus/> : <FiPlus/>}</span>
                         </Wrap>
                         {clicked === index ? (
