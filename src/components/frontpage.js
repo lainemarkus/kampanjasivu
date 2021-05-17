@@ -48,9 +48,8 @@ export default function Frontpage() {
                 <p>
                     Koronarokote leviää tutkitusti eniten nuorten ja nuorten aikuisten keskuudessa. 
                     Samaan aikaan nuorten rokotusprosentti on selvästi alhaisin. Vaikka nuoret eivät
-                    olekaan merkittävin riskiryhmä, on silti rokotteen ottaminen tärkeää. Voimme pysäyttää 
-                    pandemian kasvattamalla rokotettujen osuuden riittävän korkeaksi myös nuorten keskuudessa, 
-                    jolloin saamme riittävän laumaimmuniteetin ja voimme palata normaaliin elämään. 
+                    olekaan merkittävin riskiryhmä, on rokotteen ottaminen silti tärkeää, koska pandemian pysäyttäminen vaatii rokotettujen osuuden kasvattamista riittävän korkeaksi myös nuorten keskuudessa. 
+                    Näin saamme riittävän laumaimmuniteetin ja voimme palata normaaliin elämään. 
                 </p>
 
 

@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import './cardpage.css'
 import festival from'./festival.png';
 import SideNav from  './sidenav.js';
+import flowimg from './flow-img.png';
 
 
 
@@ -209,6 +210,9 @@ export default function Cardcontainer() {
                 
             </div>
             
+        </div>
+        <div id="flow-container">
+            <img id="flow-img" src={flowimg} alt="kuva"/>
         </div>
         <div>
             <SideNav/>

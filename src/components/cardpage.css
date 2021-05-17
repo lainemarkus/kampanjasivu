@@ -78,3 +78,22 @@ button {
 .next-button {
     text-align: center;
 }
+
+#flow-container {
+    position: absolute;
+    right: 0;
+    top: 100vh;
+    width: 60%;
+}
+#flow-img { 
+    position: relative;
+    right: -17%;
+    top: auto;
+    padding: 1rem 0;
+    min-width: 250px;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+    max-width: 500px;
+
+}
