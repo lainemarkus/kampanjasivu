@@ -21,7 +21,6 @@ padding-top: 150px;
 
 const Container = styled.div`
 top: 30%;
-box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);
 padding: 20px;
 border-radius: 0.5rem;
 `;
