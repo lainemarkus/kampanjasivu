@@ -17,12 +17,17 @@ h1 {
 h2 {
     font-family: 'Lekton';
     letter-spacing: 0.07em;
+    color: black;
 }
 
 h3 {
     font-family: 'Lekton';
     letter-spacing: 2px;
     font-size: 20px;
+} 
+
+h4 {
+    color: black;
 } 
 
 .monospace {
