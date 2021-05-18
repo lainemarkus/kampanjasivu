@@ -50,8 +50,8 @@ export default function Infopage() {
                     <h3 id="graph2-heading">KORONAROKOTE JA LAUMASUOJA</h3>
                     <img id="graph2" src={graph_2} alt="kuva" width= "1500px"/>
                     <p id="graph2-text">Laumasuoja tarkoittaa tilannetta, joka syntyy kun tarpeeksi moni henkilö on rokotettu tai muutoin vastustuskykyinen jollekin taudille. Silloin kyseinen tauti ei pääse leviämään, koska suurimmalla osalla ihmisistä on suoja tautia vastaan. Laumasuoja vaihtelee eri tautien välillä riippuen taudin tarttuvuudesta.
-                        Koronaviruksen kohdalla laumasuojan saavuttamiseksi tarvitaan noin 70% rokotuskattavuus. [5]
-                    </p>
+                    Koronaviruksen kohdalla laumasuojan kriittistä rajaa ei tarkkaan vielä tiedetä, mutta sen saavuttamiseksi tarvitaan tämän hetken arvion mukaan noin 70% rokotuskattavuus. [5]
+                    </p> 
                 </div>
 
                 <div className="grid-item large1" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
