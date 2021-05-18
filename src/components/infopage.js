@@ -38,7 +38,8 @@ export default function Infopage() {
 
                 <div className="grid-item large1" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
                     <img id="graph1" src={graph_1} alt="kuva" width= "1500px"/>
-                    <h3 id="graph1-text">FIMEAN MUKAAN ANNETUISTA 2 193 657 KORONAROKOTEANNOKSESTA ON TEHTY VAKAVIA HAITTAVAIKUTUSILMOITUKSIA 997 KAPPALETTA. SE ON ALLE YKSI ILMOITUS KAHTATUHATTA IHMISTÄ KOHDEN.[4]</h3>
+                    
+                    <h3 id="graph1-text" data-aos="zoom" data-aos-delay="1000" data-aos-duration="600">FIMEAN MUKAAN ANNETUISTA 2 193 657 KORONAROKOTEANNOKSESTA ON TEHTY VAKAVIA HAITTAVAIKUTUSILMOITUKSIA 997 KAPPALETTA. SE ON ALLE YKSI ILMOITUS KAHTATUHATTA IHMISTÄ KOHDEN.[4]</h3>
                 </div>
 
                 <div className="grid-item large2" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
@@ -54,7 +55,7 @@ export default function Infopage() {
                     </p>
                 </div>
 
-                <div className="grid-item large1" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
+                <div className="grid-item large1" data-aos="fade-up" data-aos-delay="500" data-aos-duration="500">
                     
                     <h2 className="valiotsikko">LÄHTEET:</h2>
                     <p>

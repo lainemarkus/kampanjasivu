@@ -8,21 +8,16 @@ import styled from 'styled-components';
 import SideNav from './sidenav.js';
 
 const Otsikko = styled.div`
-
-font-size: 1.2rem;
-position: relative;
-text-align: center;
-width: 100%
-justify-content: center;
-margin: 15% 2rem 2rem 2rem;
-font-family: Raleway;
+    position: relative;
+    text-align: center;
+    margin: 7rem 2rem 2rem 2rem;
 `
 
 const AlempiKuva = styled.div`
-position: absolute;
-right: 0;
-top: 100vh;
-width: 60%
+    position: absolute;
+    right: 0;
+    top: 21vh;
+    width: 100%
 `
 
 export default function kysymyskomponentti(props) {
@@ -32,7 +27,7 @@ export default function kysymyskomponentti(props) {
     <AlempiKuva>
      <img id="flow-img" src={flowimg} alt="kuva" ></img>
     </AlempiKuva>
-    < Accordion />
+    < Accordion/>
     
     <SideNav/>
     </>)

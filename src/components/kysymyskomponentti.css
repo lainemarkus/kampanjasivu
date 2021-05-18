@@ -1,5 +1,13 @@
-#flow-img {
-    position: absolute;
+#flow-img { 
+    position: relative;
     right: 0;
+    top: 0;
+    padding: 1rem 0;
+    min-width: 250px;
     width: 100%;
+    z-index: -1;
+    overflow: hidden;
+    max-width: 500px;
+
+
 }
