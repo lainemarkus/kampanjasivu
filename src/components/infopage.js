@@ -4,7 +4,9 @@ import flowimg from './flow-img.png';
 import festival from'./festival.png';
 import "aos/dist/aos.css" 
 import AOS from 'aos'; //npm install aos --save
-
+import SideNav from './sidenav.js';
+import graph_1 from './infopage-graph_1.png'
+import graph_2 from './infograph_2.png'
 
 export default function Infopage() {
     
@@ -34,8 +36,9 @@ export default function Infopage() {
                     <p>Kuten kaikki rokotteet, myös COVID-19 rokotteet voivat aiheuttaa sivuvaikutuksia. Suurin osa ilmoitetuista sivuvaikutuksista on lieviä oireita, kuten kuumetta, päänsärkyä sekä kipua ja punoitusta pistoskohdassa. Suurin osa sivuvaikutuksista on lyhytkestoisia ja häviää muutamassa päivässä itsestään. Vakavat sivuvaikutukset koronarokotteelle ovat erittäin harvinaisia mutta mahdollisia. [3] </p>
                 </div>
 
-                <div id="kuvantausta" className="grid-item large1" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
-                    tähän tulee kuva
+                <div className="grid-item large1" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
+                    <img id="graph1" src={graph_1} alt="kuva" width= "1500px"/>
+                    <h3 id="graph1-text">FIMEAN MUKAAN ANNETUISTA 2 193 657 KORONAROKOTEANNOKSESTA ON TEHTY VAKAVIA HAITTAVAIKUTUSILMOITUKSIA 997 KAPPALETTA. SE ON ALLE YKSI ILMOITUS KAHTATUHATTA IHMISTÄ KOHDEN.[4]</h3>
                 </div>
 
                 <div className="grid-item large2" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
@@ -43,8 +46,30 @@ export default function Infopage() {
                     <p><span className="white bold"><li>Voit seurata Lääkealan turvallisuus- ja keittämiskeskuksen, Fimean, ylläpitämää listaa koroarokotteiden haittavaikutusilmoituksista Suomessa <a target="_blank" href="https://www.fimea.fi/tietoa_fimeasta/koronavirus-covid-19-/koronarokotteiden-haittavaikutusilmoitukset">täältä </a></li></span></p>
                 </div>
 
-                <div id="kuvantausta" className="grid-item large1" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
-                    tähän tulee kuva
+                <div className="grid-item large1" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
+                    <h3 id="graph2-heading">KORONAROKOTE JA LAUMASUOJA</h3>
+                    <img id="graph2" src={graph_2} alt="kuva" width= "1500px"/>
+                    <p id="graph2-text">Laumasuoja tarkoittaa tilannetta, joka syntyy kun tarpeeksi moni henkilö on rokotettu tai muutoin vastustuskykyinen jollekin taudille. Silloin kyseinen tauti ei pääse leviämään, koska suurimmalla osalla ihmisistä on suoja tautia vastaan. Laumasuoja vaihtelee eri tautien välillä riippuen taudin tarttuvuudesta.
+                        Koronaviruksen kohdalla laumasuojan saavuttamiseksi tarvitaan noin 70% rokotuskattavuus. [5]
+                    </p>
+                </div>
+
+                <div className="grid-item large1" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
+                    
+                    <h2 className="valiotsikko">LÄHTEET:</h2>
+                    <p>
+                        [1]
+                        https://thl.fi/fi/web/infektiotaudit-ja-rokotukset/ajankohtaista/ajankohtaista-koronaviruksesta-covid-19/oireet-ja-hoito-koronavirus <br/>
+                        [2]
+                        https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines <br/>
+                        [3]
+                        https://thl.fi/fi/web/infektiotaudit-ja-rokotukset/ajankohtaista/ajankohtaista-koronaviruksesta-covid-19/tarttuminen-ja-suojautuminen-koronavirus/rokotteet-ja-koronavirus/oma-koronarokotus-miten-miksi-ja-milloin- <br/>
+                        [4]
+                        https://www.fimea.fi/tietoa_fimeasta/koronavirus-covid-19-/koronarokotteiden-haittavaikutusilmoitukset <br/>
+                        [5]
+                        https://yle.fi/uutiset/3-11800985 <br/>
+        
+                    </p>
                 </div>
              
             
@@ -55,6 +80,7 @@ export default function Infopage() {
 
             </div>
         </div>
+        <SideNav/>
 
         </>
     )

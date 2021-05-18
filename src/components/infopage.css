@@ -3,11 +3,11 @@
 
 .grid-container {
     display: grid;
-
     padding: 10px;
     margin: 7rem;
     grid-gap: 2rem; 
     grid-template-columns: auto auto auto;
+    grid-row: auto;
 }
 
 .grid-item {
@@ -44,6 +44,7 @@
     grid-column: auto / span 2;
     grid-row: auto / span 2;
     height: fit-content;
+    min-height: 200px;
 }
 
 .large2 {
@@ -212,4 +213,65 @@
 
 .grid-item a:hover {
     color: rgb(234, 152, 255);
+}
+
+#graph1 {
+    width: 100%;
+}
+
+#graph2 {
+    width: 30%;
+    padding: 4rem 2rem 2rem 2rem;
+}
+
+#graph1-text {
+    position: absolute;
+    font-size: 28px;
+    top: 44%;
+    margin: 0 1.5rem;
+}
+
+#graph2-heading {
+    position: relative;
+    text-align: center;
+    font-size: 28px;
+    top: 0;
+    margin: 2rem;
+}
+
+#graph2-text {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    font-size: 18px;
+}
+
+@media (max-width: 750px) {
+    
+    #graph2 {
+        width: 60%;
+        margin: 0 15%;
+    }
+
+    .grid-item #graph1-text {
+        font-size: 3vw;
+        top: 10%;
+        left: 15%;
+
+    }
+    
+    #graph2-text {
+        position:relative;
+        top: auto;
+        left: auto;
+    }
+
+    .grid-item #graph2-heading {
+        font-size: 20px;
+
+    }
+
+    .grid-item p {
+        font-size: 14px;
+    }
 }
