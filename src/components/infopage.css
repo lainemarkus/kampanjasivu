@@ -1,0 +1,72 @@
+
+#cover-img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 50%;
+    min-width: 300px;
+  }
+
+  .otsikko{
+      text-align: center;
+      padding: 100px;
+      color: #200F19;
+  }
+.valiotsikko{
+    text-align: center;
+    color: #A04E7F;
+    margin: 50px;
+   
+}
+
+.tausta{
+    background-color: #2693B6;
+    border-radius: 0.5rem;
+    padding: 30px;
+
+}
+
+.leipateksti{
+    color: #200F19;
+    margin: 30px;
+    
+}
+  .container{
+      background-color: #D1F3FF;
+      margin: 6%;
+      border-radius: 0.5rem;
+      opacity: 0.95;
+  }
+
+
+
+
+
+
+#flow-img { 
+    position: absolute;
+    margin-left: 51.7%;
+    margin-top: 50%;
+    padding: 1rem 0;
+    min-width: 250px;
+    width: 50%;
+    z-index: -1;
+    overflow: hidden;
+    max-width: 500px;
+
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+    float: left;
+    padding: 0;
+    color: #CD64A3;
+
+    
+}
+
