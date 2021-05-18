@@ -11,6 +11,7 @@ button {
 .card-section {
     display: flex;
     justify-content: center;
+    padding-bottom: 10vw;
 }
 .card-wrapper {
     width: 80%;
