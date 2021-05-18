@@ -1,7 +1,7 @@
 
-#flow-img { 
+#flow-img-frontpage { 
     position: relative;
-    right: -17%;
+    right: -12.5vw;
     top: auto;
     padding: 1rem 0;
     min-width: 250px;
@@ -34,7 +34,7 @@ p {
 
 
 #left-box {
-    width: 45%;
+    width: 40%;
     padding: 2rem  0 2rem 2rem;
 
 

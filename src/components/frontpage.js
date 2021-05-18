@@ -27,7 +27,7 @@ export default function Frontpage() {
                     <Typist.Backspace count={30} delay={1000} />
                     matkustat bussilla
                     <Typist.Delay ms={1250} />
-                    <Typist.Backspace count={15} delay={1000} />
+                    <Typist.Backspace count={18} delay={1000} />
                     otat rokotteen
                     <Typist.Delay ms={1250} />   
                 </Typist>
@@ -64,7 +64,7 @@ export default function Frontpage() {
 
             </div>
             <div className="flex-container" id="right-box">
-                <img id="flow-img" src={flowimg} alt="kuva" ></img>
+                <img id="flow-img-frontpage" src={flowimg} alt="kuva" ></img>
 
 
                 

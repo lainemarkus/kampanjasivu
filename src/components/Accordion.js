@@ -37,6 +37,7 @@ border-radius: 0.5rem;
 display: flex;
 margin: 15px;
 transition: 0.2s;
+filter: drop-shadow(0px 10px 10px rgba(111, 147, 170, 0.25));
 
 
 &:hover {
@@ -92,6 +93,7 @@ const Dropdown = styled.div`
   display: flex;
   transition: 2s;
   height: 0px max-content;
+  filter: drop-shadow(0px 10px 10px rgba(111, 147, 170, 0.25));
   
 `
 /*border-bottom: 1px solid #fff;

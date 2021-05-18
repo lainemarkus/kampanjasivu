@@ -16,6 +16,7 @@
     font-size: 30px;
     text-align: left;
     background-color: plum;
+    filter: drop-shadow(0px 10px 12px rgba(111, 147, 170, 0.25));
 }
 
 
@@ -129,13 +130,13 @@
     min-width: 300px;
   }
 
-  .otsikko{
+  .otsikko {
       text-align: center;
       padding: 100px 0;
       color: #200F19;
       margin-bottom: 10rem;
   }
-.valiotsikko{
+.valiotsikko {
     font-family: "Lekton";
     text-align: center;
     color: #A04E7F;
@@ -144,7 +145,7 @@
    
 }
 
-.tausta{
+.tausta {
     background-color: #2693B6;
     border-radius: 0.5rem;
     padding: 30px;
