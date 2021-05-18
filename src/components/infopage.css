@@ -1,4 +1,124 @@
 
+
+
+.grid-container {
+    display: grid;
+
+    padding: 10px;
+    margin: 7rem;
+    grid-gap: 2rem; 
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    border-radius: 25px;
+    padding: 1rem;
+    font-size: 30px;
+    text-align: left;
+    background-color: plum;
+}
+
+
+
+.small1 {
+    margin-top: -10rem;
+    height: fit-content;
+    background: #D1F3FF;
+}
+
+.small2 {
+    margin-top: 0rem;
+    margin-bottom: -11rem;
+    height: fit-content;
+    background: #F5D9EA;
+}
+
+.small3 {
+    margin-top: -6rem;
+    height: fit-content;
+    background: #6BC8E5;
+}
+
+.large1 {
+    background: #DDF0F4;
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+    height: fit-content;
+}
+
+.large2 {
+    background: #A06185;
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+    height: fit-content;
+}
+
+
+@media (min-width: 1000px) {
+    .grid-container { 
+        grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+
+
+@media (max-width: 1000px) {
+    .grid-container {
+        margin: 2rem;
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    
+    .grid-item {
+        padding: 0.3rem;
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    .small1 {
+        margin: 0;
+    }
+
+    .small2 {
+        margin: 0 ;
+    }
+
+    .small3 {
+        margin: 0;
+
+    }
+}
+
+@media (max-width: 500px) { 
+
+
+    .grid-item p {
+        font-size: 15px;
+
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .grid-item .valiotsikko {
+        font-size: 20px;
+    }
+
+    .grid-container {
+        margin: 5%;
+    }
+
+    .grid-item {
+        width: 90%;
+        padding: 5px;
+    }
+
+    
+}
+
 #cover-img {
     position: absolute;
     left: 0px;
@@ -10,13 +130,16 @@
 
   .otsikko{
       text-align: center;
-      padding: 100px;
+      padding: 100px 0;
       color: #200F19;
+      margin-bottom: 10rem;
   }
 .valiotsikko{
+    font-family: "Lekton";
     text-align: center;
     color: #A04E7F;
-    margin: 50px;
+    font-size: 28px;
+    margin: 2rem;
    
 }
 
@@ -25,13 +148,16 @@
     border-radius: 0.5rem;
     padding: 30px;
 
+}  
+
+.grid-item p {
+    font-size: 18px;
+    padding: 2rem;
+    color: #200F19;
+
+
 }
 
-.leipateksti{
-    color: #200F19;
-    margin: 30px;
-    
-}
   .container{
       background-color: #D1F3FF;
       margin: 6%;
@@ -70,3 +196,20 @@
     
 }
 
+.bold {
+    font-weight: 600;
+    letter-spacing: 0.03em;
+}
+
+.grid-item .white {
+    color: white;
+    margin: 0;
+}
+
+.grid-item a {
+    color: rgb(238, 207, 238);
+}
+
+.grid-item a:hover {
+    color: rgb(234, 152, 255);
+}
