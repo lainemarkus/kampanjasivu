@@ -7,6 +7,7 @@ import Typist from 'react-typist';   //lataa Typist komennolla: npm install reac
 import VideoJS from './VideoJS';
 import SideNav from './sidenav.js';
 import Igmockup from './igmockup';
+import Footer from './footer';
 
 export default function Frontpage() {
 
@@ -84,6 +85,9 @@ export default function Frontpage() {
    
         <section className="flex-container"> 
             <Igmockup />
+        </section>
+        <section className='flex-container'>
+            <Footer />
         </section>
            
 
