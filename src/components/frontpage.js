@@ -22,10 +22,10 @@ export default function Frontpage() {
                     Kun olet festareilla
                     <Typist.Delay ms={1250} />
                     <Typist.Backspace count={16} delay={1000} />
-                    vietät aikaa kavereiden kanssa
+                    vietät iltaa kavereiden kanssa
                     <Typist.Delay ms={1250} />
                     <Typist.Backspace count={30} delay={1000} />
-                    kuljet bussilla
+                    matkustat bussilla
                     <Typist.Delay ms={1250} />
                     <Typist.Backspace count={15} delay={1000} />
                     otat rokotteen
@@ -35,7 +35,7 @@ export default function Frontpage() {
             <h1>OLET OSA JOTAIN ITSEÄSI SUUREMPAA</h1>
         </header>
 
-        <section id="video">
+        <section id="video" >
             <VideoJS />
         </section>
 

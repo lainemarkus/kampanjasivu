@@ -89,8 +89,8 @@ const Dropdown = styled.div`
   border-radius: 0 0 0.5rem 0.5rem;
   margin: -22px 15px 15px 15px;
 
-
-  
+  transition: 2s;
+  height: max-content;
   
 `
 /*border-bottom: 1px solid #fff;
