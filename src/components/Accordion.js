@@ -66,6 +66,7 @@ h2 {
 
 
 span {
+    margin-right: 10px;
 
    
 }
