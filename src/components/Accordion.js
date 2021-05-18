@@ -15,8 +15,8 @@ justify-content: center;
 position: relative;
 min-height: max-content;
 text-size: flex;
-padding-bottom: 200px;
-padding-top: 150px;
+padding-bottom: 0;
+padding-top: 100px;
 `;
 
 const Container = styled.div`
@@ -85,12 +85,12 @@ const Dropdown = styled.div`
   border-bottom: 1px solid #fff;
   border-top: 1px solid #D1F3FF; 
   width: 90vw;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 0.5rem;
-  margin: 15px;
+  padding: 15px 0;  
+  border-radius: 0 0 0.5rem 0.5rem;
+  margin: -22px 15px 15px 15px;
 
- 
+
+  
   
 `
 /*border-bottom: 1px solid #fff;

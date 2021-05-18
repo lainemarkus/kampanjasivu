@@ -5,6 +5,8 @@ import flowimg from './flow-img.png';
 import festival from'./festival.png';
 import Typist from 'react-typist';   //lataa Typist komennolla: npm install react-typist --save
 import VideoJS from './VideoJS';
+import SideNav from './sidenav.js';
+import Igmockup from './igmockup';
 
 export default function Frontpage() {
 
@@ -46,34 +48,42 @@ export default function Frontpage() {
                 <p>
                     Koronarokote leviää tutkitusti eniten nuorten ja nuorten aikuisten keskuudessa. 
                     Samaan aikaan nuorten rokotusprosentti on selvästi alhaisin. Vaikka nuoret eivät
-                    olekaan merkittävin riskiryhmä, on silti rokotteen ottaminen tärkeää. Voimme pysäyttää 
-                    pandemian kasvattamalla rokotettujen osuuden riittävän korkeaksi myös nuorten keskuudessa, 
-                    jolloin saamme riittävän laumaimmuniteetin ja voimme palata normaaliin elämään. 
+                    olekaan merkittävin riskiryhmä, on rokotteen ottaminen silti tärkeää, koska pandemian pysäyttäminen vaatii rokotettujen osuuden kasvattamista riittävän korkeaksi myös nuorten keskuudessa. 
+                    Näin saamme riittävän laumaimmuniteetin ja voimme palata normaaliin elämään. 
                 </p>
-            </div>
-            <div className="flex-container" id="right-box">
-                <img id="flow-img" src={flowimg} alt="kuva" ></img>
-            </div>
-           
-            <div className="flex-container">
+
+
                 <h4>Testaa, osaatko erottaa virheelliset väittämät faktoista!</h4>
                 <Link to='/test' className='button-link'>
-                <button>
+                    <button>
                     
                         TESTAA TIETOSI
                     
                     </button>
-                    </Link>
-            
+                </Link>
 
+            </div>
+            <div className="flex-container" id="right-box">
+                <img id="flow-img" src={flowimg} alt="kuva" ></img>
+
+
+                
+            </div>
+           
+            <div className="flex-container" id="text">
+           
+            
+    
 
                 <h2>PALUU NORMAALIIN ON MAHDOLLISTA VAIN SAAVUTTAMALLA RIITTÄVÄ LAUMAIMMUNITEETTI</h2>
+           
             </div>
+            <div className="flex-container sidenav-box"> <SideNav /></div>
+           
         </section>
    
         <section className="flex-container"> 
-            <h2>SEURAA INSTAGRAMISSA</h2>
-            
+            <Igmockup />
         </section>
            
 

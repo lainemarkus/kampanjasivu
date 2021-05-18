@@ -1,0 +1,51 @@
+/* Style the links inside the sidenav */
+
+.sidenav {
+    float:left;
+
+    font-family: "Lekton";
+    margin: 2rem 0rem;
+    text-align: end;
+    
+
+
+}
+
+.sidenav a {
+    background-color:lightskyblue;
+    border-radius: 0 30px 30px 0;
+    font-size: 18px;
+    color: black;
+    display: block;
+    padding: 12px 25px;
+    text-decoration: none;
+    margin: 13px 0;
+    margin-left: -50px;
+    transition: 0.3s all;
+    filter: drop-shadow(0px 3px 12px rgba(168, 180, 190, 0.25));
+}
+
+.sidenav a:hover {
+    margin-left: -30px;
+}
+
+#test {
+    width: 220px;
+    background-color: #D1F3FF;
+}
+
+#faq {
+    width: 260px;
+    background-color: #6BC8E5;
+}
+
+#info {
+    width: 300px;
+    background-color: #E5C2E4;
+}
+
+@media (max-width: 700px) {
+    .sidenav {
+        display: none;
+    }
+}

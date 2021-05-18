@@ -1,0 +1,57 @@
+.ig-container {
+    display: flex;
+    justify-content: center;
+}
+.ig-wrapper {
+    background-color: #ffffff;
+    width: 80%;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.ig-profile {
+    display: flex;
+    align-items: center;
+    font-family:'Raleway', Arial, Helvetica, sans-serif;
+    padding: 5px 0;
+}
+.ig-logo {
+    width: 3rem;
+    justify-self: flex-start;
+}
+.ig-grid {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 1% 1% 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 1%;
+    grid-row-gap: 1%;
+}
+.photo-wrapper {
+    overflow: hidden;
+    border-radius: 10px;
+}
+.ig-photo {
+    border-radius: 10px;
+    width: 100%;
+    transition: 0.5s ease-out;
+}
+.ig-photo:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 960px) {
+    .ig-grid {
+        grid-template-columns: 1fr 1fr; 
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .ig-grid {
+        grid-template-columns: 1fr; 
+    }
+}

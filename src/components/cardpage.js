@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import './cardpage.css'
 import festival from'./festival.png';
+import SideNav from  './sidenav.js';
+import flowimg from './flow-img.png';
 
 
 
@@ -38,103 +40,103 @@ export default function Cardcontainer() {
     const questionData = [
         {
             id: '1',
-            question: 'Totta vai tarua? Koronavirusrokotteessa on 5G-mikrosiruja.',
+            question: 'Kun koronarokote kehitettiin, se tehtiin hätiköiden, ja turvallisuusmääräyksiä laiminlyötiin.',
             answerOptions: [
-                { answer: 'Totta', isCorrect: false },
-                { answer: 'Tarua', isCorrect: true },
+                { answer: 'TOTTA', isCorrect: false },
+                { answer: 'TARUA', isCorrect: true },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Koronavirusrokotteessa ei ole 5G-mikrosiruja.'
+            answerExplanation: 'COVID-19 -rokotteet kehitetään noudattaen samoja laillisia määräyksiä, kuin muutkin lääkkeet, jotta voidaan taata rokotteen turvallisuus, laatu ja tehokkuus. [1]'
         },
         {
             id: '2',
-            question: 'Oikea vastaus on totta.',
+            question: 'Koronarokote ei anna täydellistä suojaa koronavirukselta.',
             answerOptions: [
-                { answer: 'Totta', isCorrect: true },
-                { answer: 'Tarua', isCorrect: false },
+                { answer: 'TOTTA', isCorrect: true },
+                { answer: 'TARUA', isCorrect: false },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Miksi on totta?'
+            answerExplanation: 'Koronarokotteella on todettu olevan noin 95 prosentin teho. Käytännössä millään rokotteella ei ole sadan prosentin tehoa, mutta vähempikin tehokkuus riittää siihen, että viruksen leviäminen saadaan estettyä populaatiossa. [2]'
         },
         {
             id: '3',
-            question: 'Oikea vastaus on totta.',
+            question: 'Laumaimmuniteetin saavuttamiseen riittää se, että vanhukset ja noin 50 prosenttia koko Suomesta ovat rokotettu.',
             answerOptions: [
-                { answer: 'Totta', isCorrect: true },
-                { answer: 'Tarua', isCorrect: false },
+                { answer: 'TOTTA', isCorrect: false },
+                { answer: 'TARUA', isCorrect: true },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Miksi on totta?'
+            answerExplanation: 'Laumaimmuniteetti vaatii tutkimusten mukaan sen, että noin 80% populaatiosta on rokotettu. Tarvittava prosenttiosuus vaihtelee taudin mukaan. Esimerkiksi tuhkarokko vaatii sen, että 95% väestöstä on rokotettu. [3]'
         },
         {
             id: '4',
-            question: 'Oikea vastaus on tarua.',
+            question: 'Nyt kun noin 50 prosenttia suomalaisista on jo rokotettu, minun ei tarvitse ottaa rokotetta.',
             answerOptions: [
-                { answer: 'Totta', isCorrect: false },
-                { answer: 'Tarua', isCorrect: true },
+                { answer: 'TOTTA', isCorrect: false },
+                { answer: 'TARUA', isCorrect: true },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Miksi on tarua?'
+            answerExplanation: 'Vaikka puolet väestöstä onkin jo rokotettu, on tärkeää, että rokotuksia jatketaan, kunnes laumaimmuniteetin raja (80%) saavutetaan. [4]'
         },
         {
             id: '5',
-            question: 'Oikea vastaus on totta.',
+            question: 'Nuorten ihmisten on turha ottaa rokotetta, koska he eivät välttämättä saa ollenkaan oireita koronatartunnasta.',
             answerOptions: [
-                { answer: 'Totta', isCorrect: true },
-                { answer: 'Tarua', isCorrect: false },
+                { answer: 'TOTTA', isCorrect: false },
+                { answer: 'TARUA', isCorrect: true },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Miksi on totta?'
+            answerExplanation: 'Koronavirus leviää paljon nuorten keskuudessa ja nuoret voivat tartuttaa esimerkiksi isovanhempansa.'
         },
         {
             id: '6',
-            question: 'Oikea vastaus on totta.',
+            question: 'Koronavirus ei leviä veden kautta, esimerkiksi uidessa.',
             answerOptions: [
-                { answer: 'Totta', isCorrect: true },
-                { answer: 'Tarua', isCorrect: false },
+                { answer: 'TOTTA', isCorrect: true },
+                { answer: 'TARUA', isCorrect: false },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Miksi on totta?'
+            answerExplanation: 'Koronavirus ei leviä veden kautta. Virus silti leviää tartunnan saaneen ihmisen läheisyydessä. [5]'
         },
         {
             id: '7',
-            question: 'Oikea vastaus on totta.',
+            question: 'Lisäämällä pippurin määrää ruoassa keskimäärin, kasvatat immuniteettiasi koronavirusta vastaan.',
             answerOptions: [
-                { answer: 'Totta', isCorrect: true },
-                { answer: 'Tarua', isCorrect: false },
+                { answer: 'TOTTA', isCorrect: false },
+                { answer: 'TARUA', isCorrect: true },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Miksi on totta?'
+            answerExplanation: 'Pippurin syömisellä ei ole todettu vaikutuksia tässä asiassa. [5]'
         },
         {
             id: '8',
-            question: 'Oikea vastaus on totta.',
+            question: 'Jos olet jo saanut tartunnan ja parantunut, sinun ei kannata ottaa rokotetta.',
             answerOptions: [
-                { answer: 'Totta', isCorrect: true },
-                { answer: 'Tarua', isCorrect: false },
+                { answer: 'TOTTA', isCorrect: false },
+                { answer: 'TARUA', isCorrect: true },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Miksi on totta?'
+            answerExplanation: 'Rokotteen ottaminen on tarpeellista, vaikka olisit sairastanut koronaviruksen, koska luonnollinen immuniteetti ei ole välttämättä riittävä. [6]'
         },
         {
             id: '9',
-            question: 'Oikea vastaus on totta.',
+            question: 'Koronavirus voi levitä itikanpuremien kautta.',
             answerOptions: [
-                { answer: 'Totta', isCorrect: true },
-                { answer: 'Tarua', isCorrect: false },
+                { answer: 'TOTTA', isCorrect: false },
+                { answer: 'TARUA', isCorrect: true },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Miksi on totta?'
+            answerExplanation: 'Itikanpuremilla ei ole todettu olevan levittävää vaikutusta koronavirusta koskien. [5]'
         },
         {
             id: '10',
-            question: 'Oikea vastaus on totta.',
+            question: 'Koronavirus kehitettiin laboratioriossa.',
             answerOptions: [
-                { answer: 'Totta', isCorrect: true },
-                { answer: 'Tarua', isCorrect: false },
+                { answer: 'TOTTA', isCorrect: false },
+                { answer: 'TARUA', isCorrect: true },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Miksi on totta?'
+            answerExplanation: 'Koronaviruksen alkulähde on kiinalainen eläinruokatori.'
         },
     ]
     
@@ -148,8 +150,8 @@ export default function Cardcontainer() {
         <div className='card-section'>
             <div className='card-wrapper'>
                 <div className='card-title'>
-                    <h3>{questionData[questionIndex].id}/{questionData.length}</h3>
-                    <h3>Pisteet: {points}</h3>
+                    <h3><span className="large-font">{questionData[questionIndex].id}</span>/{questionData.length}</h3>
+                    <h3>PISTEET: <span className="large-font">{points}</span></h3>
                 </div>
 
                 <div className='card-changing'>
@@ -168,17 +170,17 @@ export default function Cardcontainer() {
                     showAnswer ? 
                     <>
                     <div className='answer-text'>
-                        <p>Vastauksesi on {wasCorrect ? 'OIKEIN' : 'VÄÄRIN'}</p>
+                        <h4>Vastauksesi on {wasCorrect ? 'OIKEIN' : 'VÄÄRIN'}</h4>
                         {questionData[questionIndex].answerExplanation}
                         </div>
                     <div className='answer-buttons'>
                         {(questionIndex < (questionData.length - 1)) ?
                             <>
-                            <button onClick={function(){handleAnswerClick();handleNextQuestionClick()}}>Seuraava</button>
+                            <div className="next-button"><button onClick={function(){handleAnswerClick();handleNextQuestionClick()}}>SEURAAVA KYSYMYS</button></div>
                             </>
                             :
                             <>
-                            <button onClick={setQuizEnded}>Lopetus</button>
+                            <div className="next-button"><button onClick={setQuizEnded}>Lopetus</button></div>
                             </>
                         }
                         
@@ -208,6 +210,12 @@ export default function Cardcontainer() {
                 
             </div>
             
+        </div>
+        <div id="flow-container">
+            <img id="flow-img" src={flowimg} alt="kuva"/>
+        </div>
+        <div>
+            <SideNav/>
         </div>
         </>
     )
