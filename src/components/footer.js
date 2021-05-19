@@ -1,12 +1,18 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import {Link} from 'react-router-dom';
 import './footer.css'
+import "aos/dist/aos.css" ;
+import AOS from 'aos';
 
 export default function Footer() {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      });
     return (
         <>
         <div className='footer-container'>
-            <div className='about-text'>
+            <div className='about-text' data-aos="fade-right" data-aos-delay="200" data-aos-duration="500">
                 <h2>KAMPANJASTA</h2>
                 <p>Osana suurempaa on Tahon X toteuttama kampanja, jonka tavoitteena on kasvattaa nuorten ja nuorten aikuisten tietoisuutta koronarokotteen ottamisen tärkeydestä yhteiskunnallisella tasolla.  Kampanjasivu ohjaa luotettavien tietolähteiden pariin ja korjaa vääriä käsityksiä, joita koronavirusrokotteeseen saattaa liittyä.</p>
                 <h3 className="footer-title">OLE OSANA SUUREMPAA - OTA ROKOTE</h3>

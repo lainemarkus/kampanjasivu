@@ -9,6 +9,7 @@ import SideNav from './sidenav.js';
 import Igmockup from './igmockup';
 import Footer from './footer';
 
+
 export default function Frontpage() {
 
     return (
