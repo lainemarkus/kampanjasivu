@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom'; //npm install --save react-router-dom
 import "./frontpage.css"
 import flowimg from './images/flow-img.png';
