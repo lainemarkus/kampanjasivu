@@ -27,8 +27,8 @@ export default function Infopage() {
 
                 <div id="item1" className="grid-item small2" data-aos="fade-left" >
                     <h2 className="valiotsikko">KORONAROKOTTEEN TURVALLISUUS</h2>
-                    <p>Kaikkien koronarokotteiden turvallisuuden varmistamiseksi on käytössä tiukat vaatimukset, jotka COVID-19 rokotteet täytyvät läpäistä saadakseen validoinnin lääkevirastolta. Niitä ovat muun muassa tiukat kiliiniset tutkimukset joilla osoitetaan että rokote täyttää kansainvälisesti sovitut turvallisuuden ja tehokkuuden kriteerit. Rokotteiden turvallisuutta ja tehoa seurataan tarkasti myös sen jälkeen kun rokote on otettu käyttöön. </p>
-                    <p>Koronarokotteen kohdalla rokotteiden tutkimus, kehitys ja luvat on saatu tehtyä nopeasti vastaamaan kiirellistä tarvetta, kuitenkin noudattaen korkeita turvallisuusstrandardeja. Kehtystä on nopeuttanut muun muassa tieteellinen yhteistyö, riittävä rahoitus sekä vapaaehtoisten riittävä määrä. [2]</p>
+                    <p>Kaikkien koronarokotteiden turvallisuuden varmistamiseksi on käytössä tiukat vaatimukset, jotka COVID-19 rokotteet täytyvät läpäistä saadakseen validoinnin lääkevirastolta. Niitä ovat muun muassa tiukat kliiniset tutkimukset, joilla osoitetaan, että rokote täyttää kansainvälisesti sovitut turvallisuuden ja tehokkuuden kriteerit. Rokotteiden turvallisuutta ja tehoa seurataan tarkasti myös sen jälkeen, kun rokote on otettu käyttöön. </p>
+                    <p>Koronarokotteen kohdalla rokotteiden tutkimus, kehitys ja luvat on saatu tehtyä nopeasti vastaamaan kiirellistä tarvetta, kuitenkin noudattaen korkeita turvallisuusstrandardeja. Kehitystä on nopeuttanut muun muassa tieteellinen yhteistyö, riittävä rahoitus sekä vapaaehtoisten riittävä määrä. [2]</p>
                 </div>
 
                 <div id="item3" className="grid-item small3" data-aos="fade-right" data-aos-delay="200" data-aos-duration="500">
