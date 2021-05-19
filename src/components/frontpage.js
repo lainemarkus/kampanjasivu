@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect }  from 'react';
 import {Link} from 'react-router-dom'; //npm install --save react-router-dom
 import "./frontpage.css"
 import flowimg from './images/flow-img.png';
@@ -8,9 +8,16 @@ import VideoJS from './VideoJS';
 import SideNav from './sidenav.js';
 import Igmockup from './igmockup';
 import Footer from './footer';
+import AOS from 'aos';
+
 
 
 export default function Frontpage() {
+
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      });
 
     return (
         <>
@@ -18,9 +25,9 @@ export default function Frontpage() {
 
     
         <header>     
-            <div id="animation">
+            <div id="animation" data-aos="fade-down" data-aos-delay="1000" data-aos-duration="500">
                 <Typist cursor={{ show: false }}>
-                    <Typist.Delay ms={2000} />
+                    <Typist.Delay ms={1000} />
                     Kun olet festareilla
                     <Typist.Delay ms={1250} />
                     <Typist.Backspace count={16} delay={1000} />
@@ -34,15 +41,15 @@ export default function Frontpage() {
                     <Typist.Delay ms={1250} />   
                 </Typist>
             </div>  
-            <h1>OLET OSA JOTAIN ITSEÄSI SUUREMPAA</h1>
+            <h1 data-aos="zoom" data-aos-delay="1500" data-aos-duration="1000">OLET OSA JOTAIN ITSEÄSI SUUREMPAA</h1>
         </header>
 
-        <section id="video" >
+        <section id="video" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" >
                 <VideoJS />
         </section>
 
         <section>
-            <div className="flex-container" id="left-box">
+            <div className="flex-container" id="left-box" >
                 <h2>VAIN YHDESSÄ VOIMME PYSÄYTTÄÄ PANDEMIAN</h2>
                 <p>Mietityttääkö koronarokotteen ottaminen? Ei mikään ihme, sillä
                     asiasta on liikkeellä paljon informaatiota, josta osa on harhaanjohtavaa
