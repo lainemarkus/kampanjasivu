@@ -48,7 +48,7 @@ export default function Cardcontainer() {
                 { answer: 'TOTTA', isCorrect: false },
                 { answer: 'TARUA', isCorrect: true },
             ],
-            src:'images/img-vaccine.jpg',
+            src:'images/vasynytlaakari.jpg',
             answerExplanation: 'COVID-19 -rokotteet kehitetään noudattaen samoja laillisia määräyksiä, kuin muutkin lääkkeet, jotta voidaan taata rokotteen turvallisuus, laatu ja tehokkuus. [1]'
         },
         {
@@ -58,7 +58,7 @@ export default function Cardcontainer() {
                 { answer: 'TOTTA', isCorrect: true },
                 { answer: 'TARUA', isCorrect: false },
             ],
-            src:'images/img-vaccine.jpg',
+            src:'images/bussi.jpg',
             answerExplanation: 'Koronarokotteella on todettu olevan noin 95 prosentin teho. Käytännössä millään rokotteella ei ole sadan prosentin tehoa, mutta vähempikin tehokkuus riittää siihen, että viruksen leviäminen saadaan estettyä populaatiossa. [2]'
         },
         {
@@ -68,7 +68,7 @@ export default function Cardcontainer() {
                 { answer: 'TOTTA', isCorrect: false },
                 { answer: 'TARUA', isCorrect: true },
             ],
-            src:'images/img-vaccine.jpg',
+            src:'images/rokote.jpg',
             answerExplanation: 'Laumaimmuniteetti vaatii nykyisten arvioiden mukaan sen, että noin 70% populaatiosta on rokotettu. Tarvittava prosenttiosuus vaihtelee taudin mukaan. Esimerkiksi tuhkarokko vaatii sen, että 95% väestöstä on rokotettu. [3]'
         },
         {
@@ -78,7 +78,7 @@ export default function Cardcontainer() {
                 { answer: 'TOTTA', isCorrect: false },
                 { answer: 'TARUA', isCorrect: true },
             ],
-            src:'images/img-vaccine.jpg',
+            src:'images/jengi-baarissa.jpg',
             answerExplanation: 'Vaikka suuri osa väestöstä onkin jo rokotettu, on tärkeää, että rokotuksia jatketaan vähintään siihen asti, että laumaimmuniteetin raja saavutetaan. [4]'
         },
         {
@@ -98,7 +98,7 @@ export default function Cardcontainer() {
                 { answer: 'TOTTA', isCorrect: true },
                 { answer: 'TARUA', isCorrect: false },
             ],
-            src:'images/img-vaccine.jpg',
+            src:'images/uimassa.jpg',
             answerExplanation: 'Koronavirus ei leviä veden kautta. Virus silti leviää tartunnan saaneen ihmisen läheisyydessä, joten esimerkiksi uimahalleissa virus voi levitä ihmiskontaktien kautta. [5]'
         },
         {
@@ -108,7 +108,7 @@ export default function Cardcontainer() {
                 { answer: 'TOTTA', isCorrect: false },
                 { answer: 'TARUA', isCorrect: true },
             ],
-            src:'images/img-vaccine.jpg',
+            src:'images/chili.jpg',
             answerExplanation: 'Chilin syömisellä ei ole todettu vaikutuksia tässä asiassa. [5]'
         },
         {
@@ -118,7 +118,7 @@ export default function Cardcontainer() {
                 { answer: 'TOTTA', isCorrect: false },
                 { answer: 'TARUA', isCorrect: true },
             ],
-            src:'images/img-vaccine.jpg',
+            src:'images/rokote.jpg',
             answerExplanation: 'Rokotteen ottaminen on tarpeellista, vaikka olisit sairastanut koronaviruksen, koska luonnollinen immuniteetti ei ole välttämättä riittävä. [6]'
         },
         {
@@ -128,7 +128,7 @@ export default function Cardcontainer() {
                 { answer: 'TOTTA', isCorrect: false },
                 { answer: 'TARUA', isCorrect: true },
             ],
-            src:'images/img-vaccine.jpg',
+            src:'images/jengi-baarissa.jpg',
             answerExplanation: 'Rokotteella ei ole todettu olevan vaikutusta hedelmällisyyteen. Sen sijaan raskaana olevilla naisilla on kohonnut riski sairastua koronan vakavaan tautimuotoon, jos he eivät ole rokottautuneet. [11]'
         },
         {
@@ -138,7 +138,7 @@ export default function Cardcontainer() {
                 { answer: 'TOTTA', isCorrect: false },
                 { answer: 'TARUA', isCorrect: true },
             ],
-            src:'images/img-vaccine.jpg',
+            src:'images/vasynytlaakari.jpg',
             answerExplanation: 'Koronaviruksen alkulähteeksi arvellaan kiinalaista eläinruokatoria. Joka tapauksessa tiedetään, että virus on tarttunut eläimistä ihmisiin.'
         },
     ]

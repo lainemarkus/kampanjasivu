@@ -8,7 +8,8 @@ export default function Footer() {
         <div className='footer-container'>
             <div className='about-text'>
                 <h2>KAMPANJASTA</h2>
-                <p>Osana suurempaa on Tahon X järjestämä kampanja, jonka tavoitteena on osoittaa, että rokottautuminen vaikuttaa laajemmin kuin vain yksilöön. Kampanjasivu ohjaa luotettavien tietolähteiden pariin ja korjaa vääriä käsityksiä, joita koronavirusrokotteeseen saattaa liittyä.</p>
+                <p>Osana suurempaa on Tahon X toteuttama kampanja, jonka tavoitteena on kasvattaa nuorten ja nuorten aikuisten tietoisuutta koronarokotteen ottamisen tärkeydestä yhteiskunnallisella tasolla.  Kampanjasivu ohjaa luotettavien tietolähteiden pariin ja korjaa vääriä käsityksiä, joita koronavirusrokotteeseen saattaa liittyä.</p>
+                <h3 className="footer-title">OLE OSANA SUUREMPAA - OTA ROKOTE</h3>
             </div>
             <div className='footer-wrapper'>
                 <h3 className='footer-title'>#OSANASUUREMPAA</h3>

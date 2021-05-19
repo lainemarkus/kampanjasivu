@@ -212,6 +212,10 @@
     color: rgb(238, 207, 238);
 }
 
+.sources a {
+    color: rgb(101, 57, 102);
+}
+
 .grid-item a:hover {
     color: rgb(234, 152, 255);
 }

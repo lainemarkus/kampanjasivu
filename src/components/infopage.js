@@ -51,24 +51,19 @@ export default function Infopage() {
                     <h3 id="graph2-heading">KORONAROKOTE JA LAUMASUOJA</h3>
                     <img id="graph2" src={graph_2} alt="kuva" width= "1500px"/>
                     <p id="graph2-text">Laumasuoja tarkoittaa tilannetta, joka syntyy kun tarpeeksi moni henkilö on rokotettu tai muutoin vastustuskykyinen jollekin taudille. Silloin kyseinen tauti ei pääse leviämään, koska suurimmalla osalla ihmisistä on suoja tautia vastaan. Laumasuoja vaihtelee eri tautien välillä riippuen taudin tarttuvuudesta.
-                    Koronaviruksen kohdalla laumasuojan kriittistä rajaa ei tarkkaan vielä tiedetä, mutta sen saavuttamiseksi tarvitaan tämän hetken arvion mukaan noin 70% rokotuskattavuus. [5]
+                    <br/><br/>Koronaviruksen kohdalla laumasuojan kriittistä rajaa ei tarkkaan vielä tiedetä, mutta sen saavuttamiseksi tarvitaan tämän hetken arvion mukaan noin 70% rokotuskattavuus. [5]
                     </p> 
                 </div>
 
                 <div className="grid-item large1" data-aos="fade-up" data-aos-delay="500" data-aos-duration="500">
                     
                     <h2 className="valiotsikko">LÄHTEET:</h2>
-                    <p>
-                        [1]
-                        https://thl.fi/fi/web/infektiotaudit-ja-rokotukset/ajankohtaista/ajankohtaista-koronaviruksesta-covid-19/oireet-ja-hoito-koronavirus <br/>
-                        [2]
-                        https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines <br/>
-                        [3]
-                        https://thl.fi/fi/web/infektiotaudit-ja-rokotukset/ajankohtaista/ajankohtaista-koronaviruksesta-covid-19/tarttuminen-ja-suojautuminen-koronavirus/rokotteet-ja-koronavirus/oma-koronarokotus-miten-miksi-ja-milloin- <br/>
-                        [4]
-                        https://www.fimea.fi/tietoa_fimeasta/koronavirus-covid-19-/koronarokotteiden-haittavaikutusilmoitukset <br/>
-                        [5]
-                        https://yle.fi/uutiset/3-11800985 <br/>
+                    <p className="sources">
+                        [1] <a href="https://thl.fi/fi/web/infektiotaudit-ja-rokotukset/ajankohtaista/ajankohtaista-koronaviruksesta-covid-19/oireet-ja-hoito-koronavirus">THL: Oireet ja hoito- koronavirus</a> <br/>
+                        [2] <a href="https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines">WHO: Coronavirus Disease: Vaccines</a> <br/>
+                        [3] <a href="https://thl.fi/fi/web/infektiotaudit-ja-rokotukset/ajankohtaista/ajankohtaista-koronaviruksesta-covid-19/tarttuminen-ja-suojautuminen-koronavirus/rokotteet-ja-koronavirus/oma-koronarokotus-miten-miksi-ja-milloin-">THL: Oma koronaroktus: miten, miksi ja milloin?</a> <br/>
+                        [4] <a href="https://www.fimea.fi/tietoa_fimeasta/koronavirus-covid-19-/koronarokotteiden-haittavaikutusilmoitukset">Fimea: Koronarokotteiden haittavaikutusilmoitukset</a> <br/>
+                        [5] <a href="https://yle.fi/uutiset/3-11800985">YLE: Mitä laumasuojasta nyt tiedetään? Asiantuntijat vastaavat</a> <br/>
         
                     </p>
                 </div>
