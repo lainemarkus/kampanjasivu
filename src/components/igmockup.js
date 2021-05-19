@@ -12,16 +12,16 @@ export default function Igmockup() {
         <div className='ig-container'>
             <div className='ig-wrapper'>
                 <div className='ig-profile'>
-                    <img className='ig-logo' src={iglogo} alt="instgram post"/>
+                    <img className='ig-logo' src={iglogo} alt=""/>
                     #osanasuurempaa
                 </div>
                 <div className='ig-grid'>
-                    <div className='photo-wrapper'><img className='ig-photo' src={igpost1} alt="instgram post"/></div>
-                    <div className='photo-wrapper'><img className='ig-photo' src={igpost2} alt="instgram post"/></div>
-                    <div className='photo-wrapper'><img className='ig-photo' src={igpost3} alt="instgram post"/></div>
-                    <div className='photo-wrapper'><img className='ig-photo' src={igpost2} alt="instgram post"/></div>
-                    <div className='photo-wrapper'><img className='ig-photo' src={igpost4} alt="instgram post"/></div>
-                    <div className='photo-wrapper'><img className='ig-photo' src={igpost2} alt="instgram post"/></div>
+                    <div className='photo-wrapper'><img className='ig-photo' src={igpost1} alt="" /></div>
+                    <div className='photo-wrapper'><img className='ig-photo' src={igpost2} alt="" /></div>
+                    <div className='photo-wrapper'><img className='ig-photo' src={igpost3} alt="" /></div>
+                    <div className='photo-wrapper'><img className='ig-photo' src={igpost2} alt="" /></div>
+                    <div className='photo-wrapper'><img className='ig-photo' src={igpost4} alt="" /></div>
+                    <div className='photo-wrapper'><img className='ig-photo' src={igpost2} alt="" /></div>
                 </div>
             </div> 
         </div>    

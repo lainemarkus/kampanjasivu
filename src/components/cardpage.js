@@ -222,7 +222,7 @@ export default function Cardcontainer() {
                     </div>
                     <div className='question-buttons'>
                         {questionData[questionIndex].answerOptions.map(c =>
-                            <button onClick={() => {handleAnswerClick(c.isCorrect)}}>{c.answer}</button>
+                            <button key={c.index} onClick={() => {handleAnswerClick(c.isCorrect)}}>{c.answer}</button>
                         )}
                     </div> 
                     </>
