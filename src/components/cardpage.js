@@ -146,7 +146,7 @@ export default function Cardcontainer() {
 
     return (
         <>
-        <img id="cover-img"src={festival}></img>
+        <img id="cover-img"src={festival} alt="kuva"></img>
         <div className='cardpage-title'>
             <h1>TESTAA TIETOSI KORONAROKOTTEESTA</h1>
         </div>
@@ -195,7 +195,7 @@ export default function Cardcontainer() {
 
                     <>
                     <div className='question-text'>
-                        <img className='question-image' src={questionData[questionIndex].src}/>
+                        <img className='question-image' src={questionData[questionIndex].src} alt="kuva"/>
                         {questionData[questionIndex].question}
                     </div>
                     <div className='question-buttons'>
@@ -218,19 +218,19 @@ export default function Cardcontainer() {
         <div id="sources">
         <Collapsible trigger="LÄHTEET" transitionTime={100} easing="ease-out" triggerTagName="button">
             <p>
-            [1]: <a href="https://www.ema.europa.eu/en/human-regulatory/overview/public-health-threats/coronavirus-disease-covid-19/treatments-vaccines/vaccines-covid-19/covid-19-vaccines-key-facts">European Medicines Acency: COVID-19 vaccines: key facts</a> <br/><br/>
+            [1]: <a target="_blank" rel="noopener noreferrer" href="https://www.ema.europa.eu/en/human-regulatory/overview/public-health-threats/coronavirus-disease-covid-19/treatments-vaccines/vaccines-covid-19/covid-19-vaccines-key-facts">European Medicines Acency: COVID-19 vaccines: key facts</a> <br/><br/>
 
-            [2]: <a href="https://www.nbcnewyork.com/news/coronavirus/everything-you-need-to-know-about-the-covid-vaccines-how-effective-are-the-big-3-and-how-do-they-compare/2990057/">NBC New York: Everything to Know About COVID Vaccines</a> <br/><br/>
+            [2]: <a target="_blank" rel="noopener noreferrer" href="https://www.nbcnewyork.com/news/coronavirus/everything-you-need-to-know-about-the-covid-vaccines-how-effective-are-the-big-3-and-how-do-they-compare/2990057/">NBC New York: Everything to Know About COVID Vaccines</a> <br/><br/>
 
-            [3]: <a href="https://www.who.int/news-room/q-a-detail/herd-immunity-lockdowns-and-covid-19?gclid=CjwKCAjw1uiEBhBzEiwAO9B_Hcab-fPIzH44FvkdRLTJZILJ3f_vR7RabXf27Z2gCKqVEzMVmFS8dxoC3dMQAvD_BwE#">World Health Organisation: Herd immunity, lockdowns and COVID-19</a> <br/><br/>
+            [3]: <a target="_blank" rel="noopener noreferrer" href="https://www.who.int/news-room/q-a-detail/herd-immunity-lockdowns-and-covid-19?gclid=CjwKCAjw1uiEBhBzEiwAO9B_Hcab-fPIzH44FvkdRLTJZILJ3f_vR7RabXf27Z2gCKqVEzMVmFS8dxoC3dMQAvD_BwE#">World Health Organisation: Herd immunity, lockdowns and COVID-19</a> <br/><br/>
 
-            [4]: <a href="https://www.bbc.com/news/av/health-54937276">BBC: WHO worried young people won't want vaccine</a> <br/><br/>
+            [4]: <a target="_blank" rel="noopener noreferrer" href="https://www.bbc.com/news/av/health-54937276">BBC: WHO worried young people won't want vaccine</a> <br/><br/>
 
-            [5]: <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters?gclid=CjwKCAjw1uiEBhBzEiwAO9B_HcJgPZonbg4PX4mVzu5GX07mY_05vQz0-4t5pK4IDqOzJ3kbY1k93BoCUSYQAvD_BwE">World Health Organization: Coronavirus disease (COVID-19) advice for the public: Mythbusters</a> <br/><br/>
+            [5]: <a target="_blank" rel="noopener noreferrer" href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters?gclid=CjwKCAjw1uiEBhBzEiwAO9B_HcJgPZonbg4PX4mVzu5GX07mY_05vQz0-4t5pK4IDqOzJ3kbY1k93BoCUSYQAvD_BwE">World Health Organization: Coronavirus disease (COVID-19) advice for the public: Mythbusters</a> <br/><br/>
 
-            [6]: <a href="https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines?adgroupsurvey=adgroupsurveygclid=CjwKCAjw1uiEBhBzEiwAO9B_HZ7-g9_UsmJS13ehLOovvFXeBwA1jlNjdQDEtQ4ELHfnKy_Hl0_y1RoCe_4QAvD_BwE">World Health Organization: Coronavirus disease (COVID-19): Vaccines</a> <br/><br/>
+            [6]: <a target="_blank" rel="noopener noreferrer" href="https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines?adgroupsurvey=adgroupsurveygclid=CjwKCAjw1uiEBhBzEiwAO9B_HZ7-g9_UsmJS13ehLOovvFXeBwA1jlNjdQDEtQ4ELHfnKy_Hl0_y1RoCe_4QAvD_BwE">World Health Organization: Coronavirus disease (COVID-19): Vaccines</a> <br/><br/>
 
-            [11]: <a href="https://www.who.int/news-room/q-a-detail/coronavirus-disease-covid-19-pregnancy-and-childbirth">World Healt Organiation: Coronavirus disease (COVID-19): Pregnancy and childbirth</a>
+            [11]: <a target="_blank" rel="noopener noreferrer" href="https://www.who.int/news-room/q-a-detail/coronavirus-disease-covid-19-pregnancy-and-childbirth">World Healt Organiation: Coronavirus disease (COVID-19): Pregnancy and childbirth</a>
 
             </p>     
         </Collapsible>

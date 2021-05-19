@@ -3,7 +3,7 @@ import {Data} from './Data'
 import styled from 'styled-components' //npm install --save styled-components
 import {IconContext} from 'react-icons' //npm install react-icons --save
 import {FiPlus, FiMinus} from 'react-icons/fi'
-import {useState, DropDown} from 'react'
+import {useState} from 'react'
 
 
 

@@ -43,8 +43,8 @@ export default function Infopage() {
                 </div>
 
                 <div className="grid-item large2" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
-                    <p><span className="white bold"><li>Voit lukea lisää koronarokotteen haittavaikutuksista <a target="_blank" href="https://thl.fi/fi/web/infektiotaudit-ja-rokotukset/ajankohtaista/ajankohtaista-koronaviruksesta-covid-19/tarttuminen-ja-suojautuminen-koronavirus/rokotteet-ja-koronavirus/koronarokotteiden-turvallisuus-ja-mahdolliset-haitat#Koronarokotteet_turvallisuus">täältä</a></li></span></p>
-                    <p><span className="white bold"><li>Voit seurata Lääkealan turvallisuus- ja keittämiskeskuksen, Fimean, ylläpitämää listaa koroarokotteiden haittavaikutusilmoituksista Suomessa <a target="_blank" href="https://www.fimea.fi/tietoa_fimeasta/koronavirus-covid-19-/koronarokotteiden-haittavaikutusilmoitukset">täältä </a></li></span></p>
+                    <p><span className="white bold"><li>Voit lukea lisää koronarokotteen haittavaikutuksista <a target="_blank" rel="noopener noreferrer" href="https://thl.fi/fi/web/infektiotaudit-ja-rokotukset/ajankohtaista/ajankohtaista-koronaviruksesta-covid-19/tarttuminen-ja-suojautuminen-koronavirus/rokotteet-ja-koronavirus/koronarokotteiden-turvallisuus-ja-mahdolliset-haitat#Koronarokotteet_turvallisuus">täältä</a></li></span></p>
+                    <p><span className="white bold"><li>Voit seurata Lääkealan turvallisuus- ja keittämiskeskuksen, Fimean, ylläpitämää listaa koroarokotteiden haittavaikutusilmoituksista Suomessa <a target="_blank" rel="noopener noreferrer" href="https://www.fimea.fi/tietoa_fimeasta/koronavirus-covid-19-/koronarokotteiden-haittavaikutusilmoitukset">täältä </a></li></span></p>
                 </div>
 
                 <div className="grid-item large1" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
@@ -59,11 +59,11 @@ export default function Infopage() {
                     
                     <h2 className="valiotsikko">LÄHTEET:</h2>
                     <p className="sources">
-                        [1] <a href="https://thl.fi/fi/web/infektiotaudit-ja-rokotukset/ajankohtaista/ajankohtaista-koronaviruksesta-covid-19/oireet-ja-hoito-koronavirus">THL: Oireet ja hoito- koronavirus</a> <br/>
-                        [2] <a href="https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines">WHO: Coronavirus Disease: Vaccines</a> <br/>
-                        [3] <a href="https://thl.fi/fi/web/infektiotaudit-ja-rokotukset/ajankohtaista/ajankohtaista-koronaviruksesta-covid-19/tarttuminen-ja-suojautuminen-koronavirus/rokotteet-ja-koronavirus/oma-koronarokotus-miten-miksi-ja-milloin-">THL: Oma koronaroktus: miten, miksi ja milloin?</a> <br/>
-                        [4] <a href="https://www.fimea.fi/tietoa_fimeasta/koronavirus-covid-19-/koronarokotteiden-haittavaikutusilmoitukset">Fimea: Koronarokotteiden haittavaikutusilmoitukset</a> <br/>
-                        [5] <a href="https://yle.fi/uutiset/3-11800985">YLE: Mitä laumasuojasta nyt tiedetään? Asiantuntijat vastaavat</a> <br/>
+                        [1] <a target="_blank" rel="noopener noreferrer" href="https://thl.fi/fi/web/infektiotaudit-ja-rokotukset/ajankohtaista/ajankohtaista-koronaviruksesta-covid-19/oireet-ja-hoito-koronavirus">THL: Oireet ja hoito- koronavirus</a> <br/>
+                        [2] <a target="_blank" rel="noopener noreferrer" href="https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines">WHO: Coronavirus Disease: Vaccines</a> <br/>
+                        [3] <a target="_blank" rel="noopener noreferrer" href="https://thl.fi/fi/web/infektiotaudit-ja-rokotukset/ajankohtaista/ajankohtaista-koronaviruksesta-covid-19/tarttuminen-ja-suojautuminen-koronavirus/rokotteet-ja-koronavirus/oma-koronarokotus-miten-miksi-ja-milloin-">THL: Oma koronaroktus: miten, miksi ja milloin?</a> <br/>
+                        [4] <a target="_blank" rel="noopener noreferrer" href="https://www.fimea.fi/tietoa_fimeasta/koronavirus-covid-19-/koronarokotteiden-haittavaikutusilmoitukset">Fimea: Koronarokotteiden haittavaikutusilmoitukset</a> <br/>
+                        [5] <a target="_blank" rel="noopener noreferrer" href="https://yle.fi/uutiset/3-11800985">YLE: Mitä laumasuojasta nyt tiedetään? Asiantuntijat vastaavat</a> <br/>
         
                     </p>
                 </div>
