@@ -7,6 +7,7 @@ import AOS from 'aos'; //npm install aos --save
 import SideNav from './sidenav.js';
 import graph_1 from './images/infopage-graph_1.png'
 import graph_2 from './images/infograph_2.png'
+import Footer from "./footer";
 
 export default function Infopage() {
     
@@ -44,7 +45,7 @@ export default function Infopage() {
 
                 <div className="grid-item large2" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
                     <p><span className="white bold"><li>Voit lukea lisää koronarokotteen haittavaikutuksista <a target="_blank" href="https://thl.fi/fi/web/infektiotaudit-ja-rokotukset/ajankohtaista/ajankohtaista-koronaviruksesta-covid-19/tarttuminen-ja-suojautuminen-koronavirus/rokotteet-ja-koronavirus/koronarokotteiden-turvallisuus-ja-mahdolliset-haitat#Koronarokotteet_turvallisuus">täältä</a></li></span></p>
-                    <p><span className="white bold"><li>Voit seurata Lääkealan turvallisuus- ja keittämiskeskuksen, Fimean, ylläpitämää listaa koroarokotteiden haittavaikutusilmoituksista Suomessa <a target="_blank" href="https://www.fimea.fi/tietoa_fimeasta/koronavirus-covid-19-/koronarokotteiden-haittavaikutusilmoitukset">täältä </a></li></span></p>
+                    <p><span className="white bold"><li>Voit seurata Lääkealan turvallisuus- ja keittämiskeskuksen, Fimean, ylläpitämää listaa koronarokotteiden haittavaikutusilmoituksista Suomessa <a target="_blank" href="https://www.fimea.fi/tietoa_fimeasta/koronavirus-covid-19-/koronarokotteiden-haittavaikutusilmoitukset">täältä </a></li></span></p>
                 </div>
 
                 <div className="grid-item large1" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
@@ -77,7 +78,9 @@ export default function Infopage() {
             </div>
         </div>
         <SideNav/>
-
+        <section>
+        <Footer />
+        </section>
         </>
     )
 
