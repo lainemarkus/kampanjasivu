@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import "./infopage.css"
-import flowimg from './flow-img.png';
-import festival from'./festival.png';
+import flowimg from './images/flow-img.png';
+import festival from'./images/festival.png';
 import "aos/dist/aos.css" 
 import AOS from 'aos'; //npm install aos --save
 import SideNav from './sidenav.js';
-import graph_1 from './infopage-graph_1.png'
-import graph_2 from './infograph_2.png'
+import graph_1 from './images/infopage-graph_1.png'
+import graph_2 from './images/infograph_2.png'
 
 export default function Infopage() {
     

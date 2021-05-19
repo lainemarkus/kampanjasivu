@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 import './cardpage.css'
-import festival from'./festival.png';
+import festival from'./images/festival.png';
 import SideNav from  './sidenav.js';
-import flowimg from './flow-img.png';
+import flowimg from './images/flow-img.png';
 import Collapsible from 'react-collapsible'; //install react-collapsible --save
 
 

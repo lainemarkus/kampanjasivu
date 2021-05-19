@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom'; //npm install --save react-router-dom
 import "./frontpage.css"
-import flowimg from './flow-img.png';
-import festival from'./festival.png';
+import flowimg from './images/flow-img.png';
+import festival from'./images/festival.png';
 import Typist from 'react-typist';   //lataa Typist komennolla: npm install react-typist --save
 import VideoJS from './VideoJS';
 import SideNav from './sidenav.js';
