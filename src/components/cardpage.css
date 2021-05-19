@@ -11,7 +11,7 @@ button {
 .card-section {
     display: flex;
     justify-content: center;
-    padding-bottom: 10vw;
+    padding-bottom: 1vw;
     filter: drop-shadow(0px 10px 10px rgba(111, 147, 170, 0.25));
 }
 .card-wrapper {
@@ -97,5 +97,78 @@ button {
     z-index: -1;
     overflow: hidden;
     max-width: 500px;
+
+}
+
+#sources {
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    max-width: 680px;
+    padding: 10px;
+}
+
+.Collapsible {
+    background-color: #e8f8ff;
+    border-radius: 25px;
+    text-align: left;
+    justify-content: center;
+    padding: 0rem;
+    filter: drop-shadow(0px 10px 12px rgba(111, 147, 170, 0.25));
+}
+
+#sources button {
+    width: 100%;
+    background-color: #d1f3ff;
+    filter: none;
+    
+}
+
+
+#sources p {
+    font-size: 14px;
+    padding: 1rem;
+}
+
+
+@media screen and (max-width: 600px) {
+    .card-wrapper {
+        height: 480px;
+        margin: 0.5rem;
+    }
+
+    .question-text {
+        font-size: 14px;
+        padding: 0.5rem;
+    }
+
+    .answer-text {
+        font-size: 14px;
+        padding: 0.4rem;
+    }
+
+    .question-buttons {
+        margin: 0.2rem;
+    }
+    
+    .answer-buttons {
+        margin: 0;
+    }
+
+    .ending-buttons {
+        margin: 0;
+    }
+
+    button {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .next-button {
+        margin: 0;
+    }
 
 }

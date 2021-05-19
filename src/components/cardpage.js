@@ -3,6 +3,9 @@ import './cardpage.css'
 import festival from'./festival.png';
 import SideNav from  './sidenav.js';
 import flowimg from './flow-img.png';
+import Collapsible from 'react-collapsible'; //install react-collapsible --save
+
+
 
 
 
@@ -66,17 +69,17 @@ export default function Cardcontainer() {
                 { answer: 'TARUA', isCorrect: true },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Laumaimmuniteetti vaatii tutkimusten mukaan sen, että noin 80% populaatiosta on rokotettu. Tarvittava prosenttiosuus vaihtelee taudin mukaan. Esimerkiksi tuhkarokko vaatii sen, että 95% väestöstä on rokotettu. [3]'
+            answerExplanation: 'Laumaimmuniteetti vaatii nykyisten arvioiden mukaan sen, että noin 70% populaatiosta on rokotettu. Tarvittava prosenttiosuus vaihtelee taudin mukaan. Esimerkiksi tuhkarokko vaatii sen, että 95% väestöstä on rokotettu. [3]'
         },
         {
             id: '4',
-            question: 'Nyt kun noin 50 prosenttia suomalaisista on jo rokotettu, minun ei tarvitse ottaa rokotetta.',
+            question: 'Nyt kun lähes 40 prosenttia suomalaisista on jo rokotettu, minun ei tarvitse ottaa rokotetta.',
             answerOptions: [
                 { answer: 'TOTTA', isCorrect: false },
                 { answer: 'TARUA', isCorrect: true },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Vaikka puolet väestöstä onkin jo rokotettu, on tärkeää, että rokotuksia jatketaan, kunnes laumaimmuniteetin raja (80%) saavutetaan. [4]'
+            answerExplanation: 'Vaikka suuri osa väestöstä onkin jo rokotettu, on tärkeää, että rokotuksia jatketaan vähintään siihen asti, että laumaimmuniteetin raja saavutetaan. [4]'
         },
         {
             id: '5',
@@ -86,7 +89,7 @@ export default function Cardcontainer() {
                 { answer: 'TARUA', isCorrect: true },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Koronavirus leviää paljon nuorten keskuudessa ja nuoret voivat tartuttaa esimerkiksi isovanhempansa.'
+            answerExplanation: 'Koronavirus leviää paljon nuorten keskuudessa ja nuoret voivat tartuttaa esimerkiksi isovanhempansa. Lisäksi myös terveet nuoret voivat saada koronavirustartunnasta vaikeita ja pitkittyneitä oireita, ja koronarokote tehoaa erityisesti koronaviruksen vakavempiin tautimuotoihin.'
         },
         {
             id: '6',
@@ -96,17 +99,17 @@ export default function Cardcontainer() {
                 { answer: 'TARUA', isCorrect: false },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Koronavirus ei leviä veden kautta. Virus silti leviää tartunnan saaneen ihmisen läheisyydessä. [5]'
+            answerExplanation: 'Koronavirus ei leviä veden kautta. Virus silti leviää tartunnan saaneen ihmisen läheisyydessä, joten esimerkiksi uimahalleissa virus voi levitä ihmiskontaktien kautta. [5]'
         },
         {
             id: '7',
-            question: 'Lisäämällä pippurin määrää ruoassa keskimäärin, kasvatat immuniteettiasi koronavirusta vastaan.',
+            question: 'Lisäämällä chilin määrää ruoassa keskimäärin, kasvatat immuniteettiasi koronavirusta vastaan.',
             answerOptions: [
                 { answer: 'TOTTA', isCorrect: false },
                 { answer: 'TARUA', isCorrect: true },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Pippurin syömisellä ei ole todettu vaikutuksia tässä asiassa. [5]'
+            answerExplanation: 'Chilin syömisellä ei ole todettu vaikutuksia tässä asiassa. [5]'
         },
         {
             id: '8',
@@ -120,13 +123,13 @@ export default function Cardcontainer() {
         },
         {
             id: '9',
-            question: 'Koronavirus voi levitä itikanpuremien kautta.',
+            question: 'Koronarokotteen ottaminen saattaa heikentää hedelmällisyyttä.',
             answerOptions: [
                 { answer: 'TOTTA', isCorrect: false },
                 { answer: 'TARUA', isCorrect: true },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Itikanpuremilla ei ole todettu olevan levittävää vaikutusta koronavirusta koskien. [5]'
+            answerExplanation: 'Rokotteella ei ole todettu olevan vaikutusta hedelmällisyyteen. Sen sijaan raskaana olevilla naisilla on kohonnut riski sairastua koronan vakavaan tautimuotoon, jos he eivät ole rokottautuneet. [11]'
         },
         {
             id: '10',
@@ -136,10 +139,11 @@ export default function Cardcontainer() {
                 { answer: 'TARUA', isCorrect: true },
             ],
             src:'images/img-vaccine.jpg',
-            answerExplanation: 'Koronaviruksen alkulähde on kiinalainen eläinruokatori.'
+            answerExplanation: 'Koronaviruksen alkulähteeksi arvellaan kiinalaista eläinruokatoria. Joka tapauksessa tiedetään, että virus on tarttunut eläimistä ihmisiin.'
         },
     ]
-    
+
+
     return (
         <>
         <img id="cover-img"src={festival}></img>
@@ -162,7 +166,7 @@ export default function Cardcontainer() {
                             Sait {points} pistettä.
                         </div>
                         <div className='ending-buttons'>
-                            <button onClick={resetGame}>Uudestaan</button>
+                            <button onClick={resetGame}>UUDESTAAN</button>
                         </div>
                         </>
                     )
@@ -180,7 +184,7 @@ export default function Cardcontainer() {
                             </>
                             :
                             <>
-                            <div className="next-button"><button onClick={setQuizEnded}>Lopetus</button></div>
+                            <div className="next-button"><button onClick={setQuizEnded}>LOPETUS</button></div>
                             </>
                         }
                         
@@ -204,13 +208,34 @@ export default function Cardcontainer() {
                 }
                 
                     
-                    
 
                 </div>
                 
             </div>
             
         </div>
+        
+        <div id="sources">
+        <Collapsible trigger="LÄHTEET" transitionTime={100} easing="ease-out" triggerTagName="button">
+            <p>
+            [1]: <a href="https://www.ema.europa.eu/en/human-regulatory/overview/public-health-threats/coronavirus-disease-covid-19/treatments-vaccines/vaccines-covid-19/covid-19-vaccines-key-facts">European Medicines Acency: COVID-19 vaccines: key facts</a> <br/><br/>
+
+            [2]: <a href="https://www.nbcnewyork.com/news/coronavirus/everything-you-need-to-know-about-the-covid-vaccines-how-effective-are-the-big-3-and-how-do-they-compare/2990057/">NBC New York: Everything to Know About COVID Vaccines</a> <br/><br/>
+
+            [3]: <a href="https://www.who.int/news-room/q-a-detail/herd-immunity-lockdowns-and-covid-19?gclid=CjwKCAjw1uiEBhBzEiwAO9B_Hcab-fPIzH44FvkdRLTJZILJ3f_vR7RabXf27Z2gCKqVEzMVmFS8dxoC3dMQAvD_BwE#">World Health Organisation: Herd immunity, lockdowns and COVID-19</a> <br/><br/>
+
+            [4]: <a href="https://www.bbc.com/news/av/health-54937276">BBC: WHO worried young people won't want vaccine</a> <br/><br/>
+
+            [5]: <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters?gclid=CjwKCAjw1uiEBhBzEiwAO9B_HcJgPZonbg4PX4mVzu5GX07mY_05vQz0-4t5pK4IDqOzJ3kbY1k93BoCUSYQAvD_BwE">World Health Organization: Coronavirus disease (COVID-19) advice for the public: Mythbusters</a> <br/><br/>
+
+            [6]: <a href="https://www.who.int/news-room/q-a-detail/coronavirus-disease-(covid-19)-vaccines?adgroupsurvey=adgroupsurveygclid=CjwKCAjw1uiEBhBzEiwAO9B_HZ7-g9_UsmJS13ehLOovvFXeBwA1jlNjdQDEtQ4ELHfnKy_Hl0_y1RoCe_4QAvD_BwE">World Health Organization: Coronavirus disease (COVID-19): Vaccines</a> <br/><br/>
+
+            [11]: <a href="https://www.who.int/news-room/q-a-detail/coronavirus-disease-covid-19-pregnancy-and-childbirth">World Healt Organiation: Coronavirus disease (COVID-19): Pregnancy and childbirth</a>
+
+            </p>     
+        </Collapsible>
+        </div>
+
         <div id="flow-container">
             <img id="flow-img" src={flowimg} alt="kuva"/>
         </div>

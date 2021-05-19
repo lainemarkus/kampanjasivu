@@ -20,22 +20,22 @@ export default function Navbar() {
                     <ul className={click ? 'nav-menu-active' : 'nav-menu'}>
                         <li className='nav-item'>
                             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                                Koti
+                                <span className="lila">Koti</span>
                             </Link>
                         </li>    
                         <li className='nav-item'>
                             <Link to='/test' className='nav-links' onClick={closeMobileMenu}>
-                                Testaa tietosi
+                            <span className="lila">Testaa tietosi</span>
                             </Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='/faq' className='nav-links' onClick={closeMobileMenu}>
-                                Usein kysyttyä
+                            <span className="lila">Usein kysyttyä</span>
                             </Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='/info' className='nav-links' onClick={closeMobileMenu}>
-                                Tietoa koronavirusrokotteesta
+                            <span className="lila">Tietoa koronavirusrokotteesta</span>
                             </Link>
                         </li>
                     </ul>

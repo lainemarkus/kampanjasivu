@@ -40,9 +40,14 @@
     transition: 0.2s;
 }
 
-.nav-links:hover {
+.lila {
+    color: #803e65;
+    transition: 0.2s all
+}
+
+.lila:hover {
     color: #CD64A3;
-    transition: 0.2s;
+    ;
 }
 
 .navbar-logo {
@@ -59,3 +64,4 @@
         display: none;
     }
 }
+
