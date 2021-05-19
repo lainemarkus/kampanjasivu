@@ -121,8 +121,8 @@ const Accordion = () => {
             <Container>
                 {Data.map((item, index) =>{
                     return(
-                        <>
-                        <Wrap onClick={() => toggle(index)} key={index} >
+                        <div key={index}>
+                        <Wrap onClick={() => toggle(index)} key={index}  >
                         <h2>{item.question}</h2>
                     <span>{clicked === index ? <FiMinus/> : <FiPlus/>}</span>
                         </Wrap>
@@ -132,7 +132,7 @@ const Accordion = () => {
                             
                             </Dropdown>
                         ): null}
-                        </>
+                        </div>
                     )
                 })}
             </Container>
