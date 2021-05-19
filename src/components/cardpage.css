@@ -70,7 +70,8 @@ button {
 }
 .ending-buttons {
     margin: 0 0 0 20px;
-    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .large-font {

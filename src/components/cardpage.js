@@ -5,6 +5,7 @@ import SideNav from  './sidenav.js';
 import flowimg from './images/flow-img.png';
 import Collapsible from 'react-collapsible'; //install react-collapsible --save
 import Footer from './footer';
+import {Link} from 'react-router-dom';
 
 
 
@@ -142,6 +143,27 @@ export default function Cardcontainer() {
         },
     ]
 
+    const feedbackData = [
+        {
+            feedbackText: 'Shii! Sait ' + points + ' pistettä. Olet saattanut joutua disinfmaation uhriksi. Koronarokotteesta levitetään paljon virheellistä tietoa, kannattaa siis tutustua koronarokotteeseen luotettavien lähteiden kautta.',
+        },
+        {
+            feedbackText: 'Sait ' + points + ' pistettä. Osasit erottaa suurimman osan faktoista ja virheellisistä väitteistä, mutta kannattaa vielä perehtyä lisää koronarokotteisiin.',
+        },
+        {
+            feedbackText: 'Hienoa! Sait ' + points + ' pistettä. Tietosi koronarokotteista on kunnossa.',
+        },
+    ]
+    const showFeedback = () => {
+        if (points <= 5) {
+            return feedbackData[0].feedbackText
+        } else if (points >= 9) {
+            return feedbackData[2].feedbackText
+        } else {
+            return feedbackData[1].feedbackText
+        }
+    }
+
 
     return (
         <>
@@ -162,10 +184,11 @@ export default function Cardcontainer() {
                     {quizEnded ? (
                         <>
                         <div className='ending-text'>
-                            Sait {points} pistettä.
+                            {showFeedback()}
                         </div>
                         <div className='ending-buttons'>
                             <button onClick={resetGame}>UUDESTAAN</button>
+                            <Link to='/info'><button>TIETOA ROKOTTEESTA</button></Link>
                         </div>
                         </>
                     )
