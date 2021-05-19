@@ -28,11 +28,12 @@
     list-style: none;
     justify-content: center;
     padding: 0px;
-    justify-self: flex-end;
+    order: 1;
 }
 .menu-icon {
     color: #803e65;
     display: none;
+    order: 2;
 }
 .nav-links {
     color: #803e65;
@@ -50,9 +51,12 @@
     ;
 }
 
-.navbar-logo {
+.navbar-logo, .navbar-logo-active {
     color: #803e65;
     text-decoration: none;
+}
+.navbar-logo-active {
+    display: none;
 }
 
 @media screen and (max-width: 960px) {
