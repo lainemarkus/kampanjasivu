@@ -6,6 +6,7 @@ import flowimg from './images/flow-img.png';
 import "./frontpage.css";
 import styled from 'styled-components';
 import SideNav from './sidenav.js';
+import Footer from './footer';
 
 const Otsikko = styled.div`
     position: relative;
@@ -31,6 +32,7 @@ export default function Faqpage() {
         <Accordion/>
     
         <SideNav/>
+        <Footer />
     </>
     )
 }

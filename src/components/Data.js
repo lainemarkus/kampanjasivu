@@ -13,7 +13,7 @@ export const Data = [
     },
     {
         question: 'Onko koronarokote turvallinen?',
-        answer: 'COVID-19-rokotteet ovat turvallisia, ja rokottaminen auttaa suojaamaan vakavan COVID-19-taudin kehittymiseltä ja kuolemalta. Rokotuksen jälkeen saattaa ilmetä lieviä sivuvaikutuksia, jotka ovat merkkejä siitä, että kehosi rakentaa suojaa. [8]'
+        answer: 'COVID-19-rokotteet ovat turvallisia. Kuten minkään lääkkeen tai rokotteen kohdalla, ei harvinaisten haittavaikutusten mahdollisuutta voida sulkea kokonaan pois. Kaikkien koronavirusrokotteiden turvallisuuden varmistamiseksi on kuitenkin tarkat turvallisuuden ja tehokkuuden kriteerit joita testataan muun muassa kymmenillä tuhansilla vapaaehtoisilla koehenkilöillä, ja niiden avulla on varmistettu että kaikissa myyntiluvan saaneissa rokotteissa hyödyt ovat merkittävästi suurempia mahdollisiin haittoihin verrattuna. Rokotteille, joita ei voida todistaa turvallisiksi, ei siis myönnetä myyntilupaa. <br><br> Suurin osa haittavaikutuksista on lieviä, vaarattomia ja itsestään ohimeneviä. Vakavien haittavaikutusten todennäköisyys on Suomessa ollut haittavaikutusilmoitusten perusteella 0,00045 prosenttia. [8][11]'
     },
     {
         question: 'Onko Astra Zenecan rokotteessa suuri riski veritulppaan?',

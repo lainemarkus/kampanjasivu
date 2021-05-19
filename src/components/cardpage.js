@@ -4,8 +4,7 @@ import festival from'./images/festival.png';
 import SideNav from  './sidenav.js';
 import flowimg from './images/flow-img.png';
 import Collapsible from 'react-collapsible'; //install react-collapsible --save
-
-
+import Footer from './footer';
 
 
 
@@ -242,6 +241,9 @@ export default function Cardcontainer() {
         <div>
             <SideNav/>
         </div>
+        <section>
+            <Footer />
+        </section>
         </>
     )
     
