@@ -37,7 +37,7 @@ export default function Frontpage() {
         </header>
 
         <section id="video" >
-            <VideoJS />
+                <VideoJS />
         </section>
 
         <section>

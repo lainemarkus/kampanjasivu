@@ -1,7 +1,16 @@
 .video-js {
     display: block;
-    margin-left: auto;
+    object-fit: contain;
+    max-width: 100%;
+}
+.video-app {
+    background: white;
     border-radius: 20px;
-    max-width: 1080px;
-    width: 90vw;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 840px) {
+    .video-app {
+        width: 85vw;
+    }
 }

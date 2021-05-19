@@ -7,8 +7,8 @@ import thumbnail from './video/thumbnail1.jpg'
 export default function VideoJS() {
     const videoSrc = Video
     return (
-        <div className='App'>
-            <VideoPlayer src={videoSrc} poster={thumbnail} width='1080' 
+        <div className='video-app'>
+            <VideoPlayer src={videoSrc} poster={thumbnail} width='720' 
             
             />
         </div>
