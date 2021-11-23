@@ -1,10 +1,13 @@
 
-#Osana suurempaa 
-Kampanjasivu
+
+
+# Osana suurempaa -kampanjasivu
+
+Tämä nettisivu toteutettiin ryhmätyönä Aalto-yliopiston Informaatioverkostojen koulutusohjelman Verkkojulkaisemisen perusteet -kurssilla ja sen sisältö tuotettiin Viestintä ja Digitaalinen media -kurssilla.
 
 
 
-
+_______________________________
 
 
 # Getting Started with Create React App
